@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Central hub glow -->
+    <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#DC2626" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#DC2626" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Background radial -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </radialGradient>
+    <!-- Line glow filter -->
+    <filter id="glowLine" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Node glow -->
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.06">
+    <line x1="0" y1="0" x2="1200" y2="630" stroke="white" stroke-width="0.5"/>
+    <line x1="1200" y1="0" x2="0" y2="630" stroke="white" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="white" stroke-width="0.5"/>
+    <circle cx="600" cy="315" r="250" fill="none" stroke="white" stroke-width="0.5"/>
+    <circle cx="600" cy="315" r="180" fill="none" stroke="white" stroke-width="0.5"/>
+  </g>
+
+  <!-- Connection lines (drawn first, behind everything) -->
+  <g filter="url(#glowLine)">
+    <!-- Center to top-left -->
+    <line x1="600" y1="290" x2="280" y2="180" stroke="#DC2626" stroke-width="2.5" opacity="0.7"/>
+    <!-- Center to top-right -->
+    <line x1="600" y1="290" x2="920" y2="180" stroke="#DC2626" stroke-width="2.5" opacity="0.7"/>
+    <!-- Center to bottom-left -->
+    <line x1="600" y1="290" x2="320" y2="450" stroke="#DC2626" stroke-width="2.5" opacity="0.7"/>
+    <!-- Center to bottom-right -->
+    <line x1="600" y1="290" x2="880" y2="450" stroke="#DC2626" stroke-width="2.5" opacity="0.7"/>
+    <!-- Cross connections -->
+    <line x1="280" y1="180" x2="320" y2="450" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    <line x1="920" y1="180" x2="880" y2="450" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    <line x1="280" y1="180" x2="920" y2="180" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="8,6"/>
+    <line x1="320" y1="450" x2="880" y2="450" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="8,6"/>
+  </g>
+
+  <!-- Data flow dots on lines -->
+  <g>
+    <circle r="4" fill="#DC2626" opacity="0.9">
+      <animateMotion dur="3s" repeatCount="indefinite" path="M600,290 L280,180"/>
+    </circle>
+    <circle r="4" fill="#DC2626" opacity="0.9">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M600,290 L920,180"/>
+    </circle>
+    <circle r="4" fill="#DC2626" opacity="0.9">
+      <animateMotion dur="2.8s" repeatCount="indefinite" path="M600,290 L320,450"/>
+    </circle>
+    <circle r="4" fill="#DC2626" opacity="0.9">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M600,290 L880,450"/>
+    </circle>
+  </g>
+
+  <!-- Platform nodes (circles at each person's feet) -->
+  <g>
+    <!-- Center hub -->
+    <circle cx="600" cy="320" r="65" fill="url(#hubGlow)" filter="url(#nodeGlow)"/>
+    <circle cx="600" cy="320" r="40" fill="#DC2626" opacity="0.25"/>
+    <circle cx="600" cy="320" r="25" fill="#DC2626" opacity="0.5"/>
+    <circle cx="600" cy="320" r="12" fill="#DC2626" opacity="0.9"/>
+
+    <!-- Outer nodes -->
+    <circle cx="280" cy="195" r="22" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <circle cx="920" cy="195" r="22" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <circle cx="320" cy="465" r="22" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <circle cx="880" cy="465" r="22" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Person 1: Center (primary, on the hub) -->
+  <g>
+    <!-- Head -->
+    <circle cx="600" cy="248" r="15" fill="rgba(255,255,255,0.85)"/>
+    <!-- Body/torso -->
+    <path d="M580,268 Q580,263 585,263 L615,263 Q620,263 620,268 L618,295 Q618,300 613,300 L587,300 Q582,300 582,295 Z" fill="rgba(255,255,255,0.7)"/>
+    <!-- Legs hint -->
+    <rect x="586" y="300" width="12" height="18" rx="3" fill="rgba(255,255,255,0.55)"/>
+    <rect x="602" y="300" width="12" height="18" rx="3" fill="rgba(255,255,255,0.55)"/>
+  </g>
+
+  <!-- Person 2: Top-left -->
+  <g>
+    <circle cx="280" cy="138" r="13" fill="rgba(255,255,255,0.7)"/>
+    <path d="M263,155 Q263,151 267,151 L293,151 Q297,151 297,155 L295,180 Q295,184 291,184 L269,184 Q265,184 265,180 Z" fill="rgba(255,255,255,0.55)"/>
+    <rect x="268" y="184" width="10" height="14" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <rect x="282" y="184" width="10" height="14" rx="3" fill="rgba(255,255,255,0.4)"/>
+  </g>
+
+  <!-- Person 3: Top-right -->
+  <g>
+    <circle cx="920" cy="138" r="13" fill="rgba(255,255,255,0.7)"/>
+    <path d="M903,155 Q903,151 907,151 L933,151 Q937,151 937,155 L935,180 Q935,184 931,184 L909,184 Q905,184 905,180 Z" fill="rgba(255,255,255,0.55)"/>
+    <rect x="908" y="184" width="10" height="14" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <rect x="922" y="184" width="10" height="14" rx="3" fill="rgba(255,255,255,0.4)"/>
+  </g>
+
+  <!-- Person 4: Bottom-left -->
+  <g>
+    <circle cx="320" cy="405" r="13" fill="rgba(255,255,255,0.7)"/>
+    <path d="M303,422 Q303,418 307,418 L333,418 Q337,418 337,422 L335,447 Q335,451 331,451 L309,451 Q305,451 305,447 Z" fill="rgba(255,255,255,0.55)"/>
+    <rect x="308" y="451" width="10" height="14" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <rect x="322" y="451" width="10" height="14" rx="3" fill="rgba(255,255,255,0.4)"/>
+  </g>
+
+  <!-- Person 5: Bottom-right -->
+  <g>
+    <circle cx="880" cy="405" r="13" fill="rgba(255,255,255,0.7)"/>
+    <path d="M863,422 Q863,418 867,418 L893,418 Q897,418 897,422 L895,447 Q895,451 891,451 L869,451 Q865,451 865,447 Z" fill="rgba(255,255,255,0.55)"/>
+    <rect x="868" y="451" width="10" height="14" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <rect x="882" y="451" width="10" height="14" rx="3" fill="rgba(255,255,255,0.4)"/>
+  </g>
+
+  <!-- Decorative: small floating dots -->
+  <g opacity="0.3">
+    <circle cx="150" cy="100" r="2" fill="white"/>
+    <circle cx="1050" cy="80" r="2" fill="white"/>
+    <circle cx="100" cy="530" r="2" fill="white"/>
+    <circle cx="1100" cy="550" r="2" fill="white"/>
+    <circle cx="450" cy="550" r="1.5" fill="white"/>
+    <circle cx="750" cy="80" r="1.5" fill="white"/>
+    <circle cx="200" cy="320" r="1.5" fill="white"/>
+    <circle cx="1000" cy="300" r="1.5" fill="white"/>
+  </g>
+
+  <!-- Corner accent lines -->
+  <g opacity="0.15">
+    <line x1="30" y1="30" x2="120" y2="30" stroke="#DC2626" stroke-width="2"/>
+    <line x1="30" y1="30" x2="30" y2="120" stroke="#DC2626" stroke-width="2"/>
+    <line x1="1170" y1="600" x2="1080" y2="600" stroke="#DC2626" stroke-width="2"/>
+    <line x1="1170" y1="600" x2="1170" y2="510" stroke="#DC2626" stroke-width="2"/>
+  </g>
+</svg>

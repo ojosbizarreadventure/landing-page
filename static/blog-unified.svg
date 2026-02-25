@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="uniBg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </radialGradient>
+    <radialGradient id="dashGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#DC2626" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#DC2626" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="uniGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="dashboardGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="flowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.05)"/>
+      <stop offset="50%" stop-color="#DC2626" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#DC2626" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#uniBg)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="white" stroke-width="0.5">
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+  </g>
+
+  <!-- Central dashboard/screen element -->
+  <g filter="url(#dashboardGlow)">
+    <circle cx="600" cy="290" r="90" fill="url(#dashGlow)"/>
+  </g>
+  <g>
+    <!-- Screen rectangle -->
+    <rect x="545" y="238" width="110" height="75" rx="6" fill="rgba(220,38,38,0.15)" stroke="#DC2626" stroke-width="2" opacity="0.9"/>
+    <!-- Screen content lines -->
+    <rect x="555" y="250" width="40" height="4" rx="2" fill="rgba(255,255,255,0.5)"/>
+    <rect x="555" y="260" width="60" height="4" rx="2" fill="rgba(255,255,255,0.35)"/>
+    <rect x="555" y="270" width="50" height="4" rx="2" fill="rgba(255,255,255,0.25)"/>
+    <!-- Mini chart bars -->
+    <rect x="620" y="268" width="8" height="18" rx="1" fill="#DC2626" opacity="0.7"/>
+    <rect x="631" y="262" width="8" height="24" rx="1" fill="#DC2626" opacity="0.8"/>
+    <rect x="642" y="256" width="8" height="30" rx="1" fill="#DC2626" opacity="0.9"/>
+    <!-- Screen stand -->
+    <rect x="590" y="313" width="20" height="8" rx="1" fill="rgba(255,255,255,0.3)"/>
+    <rect x="580" y="319" width="40" height="4" rx="2" fill="rgba(255,255,255,0.2)"/>
+  </g>
+
+  <!-- Silo containers (4 corners, representing departments) that converge -->
+  <!-- Top-left: Sales silo -->
+  <g opacity="0.2">
+    <rect x="140" y="100" width="80" height="100" rx="4" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <rect x="152" y="115" width="56" height="5" rx="2" fill="rgba(255,255,255,0.3)"/>
+    <rect x="152" y="126" width="40" height="5" rx="2" fill="rgba(255,255,255,0.2)"/>
+    <rect x="152" y="137" width="48" height="5" rx="2" fill="rgba(255,255,255,0.2)"/>
+  </g>
+  <!-- Top-right: Marketing silo -->
+  <g opacity="0.2">
+    <rect x="980" y="100" width="80" height="100" rx="4" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <rect x="992" y="115" width="56" height="5" rx="2" fill="rgba(255,255,255,0.3)"/>
+    <rect x="992" y="126" width="40" height="5" rx="2" fill="rgba(255,255,255,0.2)"/>
+    <rect x="992" y="137" width="48" height="5" rx="2" fill="rgba(255,255,255,0.2)"/>
+  </g>
+  <!-- Bottom-left: Engineering silo -->
+  <g opacity="0.2">
+    <rect x="140" y="430" width="80" height="100" rx="4" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <rect x="152" y="445" width="56" height="5" rx="2" fill="rgba(255,255,255,0.3)"/>
+    <rect x="152" y="456" width="40" height="5" rx="2" fill="rgba(255,255,255,0.2)"/>
+  </g>
+  <!-- Bottom-right: Finance silo -->
+  <g opacity="0.2">
+    <rect x="980" y="430" width="80" height="100" rx="4" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <rect x="992" y="445" width="56" height="5" rx="2" fill="rgba(255,255,255,0.3)"/>
+    <rect x="992" y="456" width="40" height="5" rx="2" fill="rgba(255,255,255,0.2)"/>
+  </g>
+
+  <!-- Flowing data lines from silos to central dashboard -->
+  <g filter="url(#uniGlow)">
+    <!-- From top-left silo -->
+    <path d="M220,150 Q400,150 550,260" fill="none" stroke="#DC2626" stroke-width="2" opacity="0.5">
+      <animate attributeName="stroke-dasharray" values="0,1000;200,1000" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <!-- From top-right silo -->
+    <path d="M980,150 Q800,150 650,260" fill="none" stroke="#DC2626" stroke-width="2" opacity="0.5">
+      <animate attributeName="stroke-dasharray" values="0,1000;200,1000" dur="2.3s" repeatCount="indefinite"/>
+    </path>
+    <!-- From bottom-left silo -->
+    <path d="M220,480 Q400,480 560,330" fill="none" stroke="#DC2626" stroke-width="2" opacity="0.5">
+      <animate attributeName="stroke-dasharray" values="0,1000;200,1000" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <!-- From bottom-right silo -->
+    <path d="M980,480 Q800,480 640,330" fill="none" stroke="#DC2626" stroke-width="2" opacity="0.5">
+      <animate attributeName="stroke-dasharray" values="0,1000;200,1000" dur="2.1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Static visible flow lines (so they show even without animation) -->
+  <path d="M220,150 Q400,150 550,260" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.25"/>
+  <path d="M980,150 Q800,150 650,260" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.25"/>
+  <path d="M220,480 Q400,480 560,330" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.25"/>
+  <path d="M980,480 Q800,480 640,330" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Leader/Founder: Center, larger figure -->
+  <g>
+    <!-- Head -->
+    <circle cx="600" cy="375" r="16" fill="rgba(255,255,255,0.9)"/>
+    <!-- Body -->
+    <path d="M578,396 Q578,392 582,392 L618,392 Q622,392 622,396 L620,432 Q620,436 616,436 L584,436 Q580,436 580,432 Z" fill="rgba(255,255,255,0.75)"/>
+    <!-- Arms slightly out (leadership pose) -->
+    <path d="M578,402 L558,415" stroke="rgba(255,255,255,0.65)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M622,402 L642,415" stroke="rgba(255,255,255,0.65)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Legs -->
+    <rect x="584" y="436" width="13" height="22" rx="3" fill="rgba(255,255,255,0.6)"/>
+    <rect x="601" y="436" width="13" height="22" rx="3" fill="rgba(255,255,255,0.6)"/>
+  </g>
+
+  <!-- Department representative 1: Top-left (Sales) -->
+  <g>
+    <circle cx="340" cy="195" r="13" fill="rgba(255,255,255,0.7)"/>
+    <path d="M324,213 Q324,209 328,209 L352,209 Q356,209 356,213 L354,240 Q354,244 350,244 L330,244 Q326,244 326,240 Z" fill="rgba(255,255,255,0.55)"/>
+    <rect x="329" y="244" width="10" height="16" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <rect x="341" y="244" width="10" height="16" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <!-- Connection to center -->
+    <line x1="355" y1="225" x2="550" y2="275" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Department representative 2: Top-right (Marketing) -->
+  <g>
+    <circle cx="860" cy="195" r="13" fill="rgba(255,255,255,0.7)"/>
+    <path d="M844,213 Q844,209 848,209 L872,209 Q876,209 876,213 L874,240 Q874,244 870,244 L850,244 Q846,244 846,240 Z" fill="rgba(255,255,255,0.55)"/>
+    <rect x="849" y="244" width="10" height="16" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <rect x="861" y="244" width="10" height="16" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <line x1="845" y1="225" x2="650" y2="275" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Department representative 3: Bottom-left (Engineering) -->
+  <g>
+    <circle cx="340" cy="435" r="13" fill="rgba(255,255,255,0.7)"/>
+    <path d="M324,453 Q324,449 328,449 L352,449 Q356,449 356,453 L354,480 Q354,484 350,484 L330,484 Q326,484 326,480 Z" fill="rgba(255,255,255,0.55)"/>
+    <rect x="329" y="484" width="10" height="16" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <rect x="341" y="484" width="10" height="16" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <line x1="355" y1="455" x2="560" y2="320" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Department representative 4: Bottom-right (Finance) -->
+  <g>
+    <circle cx="860" cy="435" r="13" fill="rgba(255,255,255,0.7)"/>
+    <path d="M844,453 Q844,449 848,449 L872,449 Q876,449 876,453 L874,480 Q874,484 870,484 L850,484 Q846,484 846,480 Z" fill="rgba(255,255,255,0.55)"/>
+    <rect x="849" y="484" width="10" height="16" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <rect x="861" y="484" width="10" height="16" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <line x1="845" y1="455" x2="640" y2="320" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Small labels near department people -->
+  <g font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)" text-anchor="middle">
+    <text x="340" y="275">Sales</text>
+    <text x="860" y="275">Marketing</text>
+    <text x="340" y="510">Engineering</text>
+    <text x="860" y="510">Finance</text>
+  </g>
+
+  <!-- Convergence arrows near dashboard -->
+  <g opacity="0.4">
+    <!-- Arrow tips pointing to dashboard -->
+    <polygon points="538,265 548,258 548,272" fill="#DC2626"/>
+    <polygon points="662,265 652,258 652,272" fill="#DC2626"/>
+    <polygon points="555,328 548,318 562,318" fill="#DC2626"/>
+    <polygon points="645,328 638,318 652,318" fill="#DC2626"/>
+  </g>
+
+  <!-- Floating particles -->
+  <g opacity="0.25">
+    <circle cx="100" cy="60" r="2" fill="white"/>
+    <circle cx="1100" cy="50" r="2" fill="white"/>
+    <circle cx="60" cy="570" r="1.5" fill="white"/>
+    <circle cx="1140" cy="580" r="1.5" fill="white"/>
+    <circle cx="500" cy="560" r="1.5" fill="#DC2626"/>
+    <circle cx="700" cy="70" r="1.5" fill="#DC2626"/>
+    <circle cx="200" cy="315" r="1.5" fill="white"/>
+    <circle cx="1000" cy="315" r="1.5" fill="white"/>
+  </g>
+
+  <!-- Corner accents -->
+  <g opacity="0.15">
+    <line x1="30" y1="30" x2="120" y2="30" stroke="#DC2626" stroke-width="2"/>
+    <line x1="30" y1="30" x2="30" y2="120" stroke="#DC2626" stroke-width="2"/>
+    <line x1="1170" y1="600" x2="1080" y2="600" stroke="#DC2626" stroke-width="2"/>
+    <line x1="1170" y1="600" x2="1170" y2="510" stroke="#DC2626" stroke-width="2"/>
+  </g>
+</svg>

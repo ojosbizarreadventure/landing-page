@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="aiBgGrad" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </radialGradient>
+    <radialGradient id="brainGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#DC2626" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#DC2626" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="aiGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#aiBgGrad)"/>
+
+  <!-- Subtle circuit pattern in background -->
+  <g opacity="0.06" stroke="white" stroke-width="0.8" fill="none">
+    <path d="M100,315 H350"/>
+    <path d="M850,315 H1100"/>
+    <path d="M600,100 V200"/>
+    <path d="M600,430 V550"/>
+    <path d="M350,200 Q600,100 850,200"/>
+    <path d="M350,430 Q600,550 850,430"/>
+    <circle cx="350" cy="200" r="4"/>
+    <circle cx="850" cy="200" r="4"/>
+    <circle cx="350" cy="430" r="4"/>
+    <circle cx="850" cy="430" r="4"/>
+  </g>
+
+  <!-- AI Brain pattern - radiating from center -->
+  <g filter="url(#aiGlow)">
+    <circle cx="600" cy="280" r="120" fill="url(#brainGlow)"/>
+    <!-- Neural network nodes -->
+    <g fill="#DC2626" opacity="0.6">
+      <circle cx="600" cy="250" r="5"/>
+      <circle cx="570" cy="280" r="4"/>
+      <circle cx="630" cy="280" r="4"/>
+      <circle cx="555" cy="255" r="3.5"/>
+      <circle cx="645" cy="255" r="3.5"/>
+      <circle cx="560" cy="310" r="3.5"/>
+      <circle cx="640" cy="310" r="3.5"/>
+      <circle cx="600" cy="320" r="4"/>
+      <circle cx="580" cy="240" r="3"/>
+      <circle cx="620" cy="240" r="3"/>
+    </g>
+    <!-- Neural connections -->
+    <g stroke="#DC2626" stroke-width="1.2" opacity="0.35" fill="none">
+      <line x1="600" y1="250" x2="570" y2="280"/>
+      <line x1="600" y1="250" x2="630" y2="280"/>
+      <line x1="555" y1="255" x2="570" y2="280"/>
+      <line x1="645" y1="255" x2="630" y2="280"/>
+      <line x1="570" y1="280" x2="560" y2="310"/>
+      <line x1="630" y1="280" x2="640" y2="310"/>
+      <line x1="570" y1="280" x2="600" y2="320"/>
+      <line x1="630" y1="280" x2="600" y2="320"/>
+      <line x1="560" y1="310" x2="600" y2="320"/>
+      <line x1="640" y1="310" x2="600" y2="320"/>
+      <line x1="580" y1="240" x2="600" y2="250"/>
+      <line x1="620" y1="240" x2="600" y2="250"/>
+      <line x1="555" y1="255" x2="580" y2="240"/>
+      <line x1="645" y1="255" x2="620" y2="240"/>
+    </g>
+  </g>
+
+  <!-- Radiating lines from brain center -->
+  <g stroke="#DC2626" stroke-width="1" opacity="0.15">
+    <line x1="600" y1="280" x2="400" y2="150"/>
+    <line x1="600" y1="280" x2="800" y2="150"/>
+    <line x1="600" y1="280" x2="350" y2="350"/>
+    <line x1="600" y1="280" x2="850" y2="350"/>
+    <line x1="600" y1="280" x2="450" y2="500"/>
+    <line x1="600" y1="280" x2="750" y2="500"/>
+  </g>
+
+  <!-- Fading repetitive task icons (right side, fading out) -->
+  <g opacity="0.2" transform="translate(900, 180)">
+    <!-- Clipboard icon -->
+    <rect x="0" y="0" width="30" height="38" rx="3" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <rect x="8" y="-4" width="14" height="8" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <line x1="8" y1="12" x2="22" y2="12" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <line x1="8" y1="19" x2="22" y2="19" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <line x1="8" y1="26" x2="22" y2="26" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  </g>
+  <g opacity="0.12" transform="translate(960, 220)">
+    <!-- Another clipboard, more faded -->
+    <rect x="0" y="0" width="26" height="34" rx="3" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    <line x1="6" y1="10" x2="20" y2="10" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <line x1="6" y1="16" x2="20" y2="16" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <line x1="6" y1="22" x2="20" y2="22" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  </g>
+  <g opacity="0.06" transform="translate(1010, 250)">
+    <rect x="0" y="0" width="22" height="28" rx="3" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  </g>
+
+  <!-- Fading task icons (left side mirror, fading out) -->
+  <g opacity="0.2" transform="translate(230, 180)">
+    <rect x="0" y="0" width="30" height="38" rx="3" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <rect x="8" y="-4" width="14" height="8" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <line x1="8" y1="12" x2="22" y2="12" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <line x1="8" y1="19" x2="22" y2="19" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <line x1="8" y1="26" x2="22" y2="26" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  </g>
+  <g opacity="0.12" transform="translate(175, 220)">
+    <rect x="0" y="0" width="26" height="34" rx="3" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    <line x1="6" y1="10" x2="20" y2="10" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <line x1="6" y1="16" x2="20" y2="16" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  </g>
+
+  <!-- Person 1: Center-left, creative pose (arms raised) -->
+  <g filter="url(#softGlow)">
+    <!-- Head -->
+    <circle cx="480" cy="360" r="15" fill="rgba(255,255,255,0.85)"/>
+    <!-- Body -->
+    <path d="M460,380 Q460,376 464,376 L496,376 Q500,376 500,380 L498,415 Q498,419 494,419 L466,419 Q462,419 462,415 Z" fill="rgba(255,255,255,0.7)"/>
+    <!-- Left arm raised up -->
+    <path d="M460,385 L438,355 L435,340" stroke="rgba(255,255,255,0.65)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Right arm raised up -->
+    <path d="M500,385 L522,355 L525,340" stroke="rgba(255,255,255,0.65)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Legs -->
+    <rect x="466" y="419" width="12" height="20" rx="3" fill="rgba(255,255,255,0.55)"/>
+    <rect x="482" y="419" width="12" height="20" rx="3" fill="rgba(255,255,255,0.55)"/>
+  </g>
+
+  <!-- Lightbulb/spark above Person 1 -->
+  <g filter="url(#aiGlow)">
+    <ellipse cx="480" cy="320" rx="14" ry="18" fill="none" stroke="#DC2626" stroke-width="2.5" opacity="0.9"/>
+    <line x1="474" y1="338" x2="486" y2="338" stroke="#DC2626" stroke-width="2" opacity="0.8"/>
+    <line x1="476" y1="342" x2="484" y2="342" stroke="#DC2626" stroke-width="1.5" opacity="0.7"/>
+    <!-- Spark rays -->
+    <line x1="480" y1="295" x2="480" y2="285" stroke="#DC2626" stroke-width="2" opacity="0.8"/>
+    <line x1="460" y1="305" x2="453" y2="298" stroke="#DC2626" stroke-width="1.5" opacity="0.6"/>
+    <line x1="500" y1="305" x2="507" y2="298" stroke="#DC2626" stroke-width="1.5" opacity="0.6"/>
+    <line x1="455" y1="320" x2="447" y2="320" stroke="#DC2626" stroke-width="1.5" opacity="0.5"/>
+    <line x1="505" y1="320" x2="513" y2="320" stroke="#DC2626" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- Person 2: Right side, working/thinking -->
+  <g>
+    <circle cx="720" cy="370" r="14" fill="rgba(255,255,255,0.7)"/>
+    <path d="M702,389 Q702,385 706,385 L734,385 Q738,385 738,389 L736,420 Q736,424 732,424 L708,424 Q704,424 704,420 Z" fill="rgba(255,255,255,0.55)"/>
+    <!-- Right arm forward (pointing/working) -->
+    <path d="M738,395 L760,388 L775,385" stroke="rgba(255,255,255,0.5)" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- Left arm down -->
+    <path d="M702,395 L690,410" stroke="rgba(255,255,255,0.45)" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <rect x="708" y="424" width="11" height="18" rx="3" fill="rgba(255,255,255,0.4)"/>
+    <rect x="722" y="424" width="11" height="18" rx="3" fill="rgba(255,255,255,0.4)"/>
+  </g>
+
+  <!-- Person 3: Far right, smaller/secondary -->
+  <g opacity="0.6">
+    <circle cx="830" cy="400" r="12" fill="rgba(255,255,255,0.5)"/>
+    <path d="M815,416 Q815,413 818,413 L842,413 Q845,413 845,416 L843,440 Q843,443 840,443 L820,443 Q817,443 817,440 Z" fill="rgba(255,255,255,0.35)"/>
+    <rect x="820" y="443" width="9" height="15" rx="2" fill="rgba(255,255,255,0.25)"/>
+    <rect x="832" y="443" width="9" height="15" rx="2" fill="rgba(255,255,255,0.25)"/>
+  </g>
+
+  <!-- Ground line / platform -->
+  <line x1="200" y1="470" x2="1000" y2="470" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Corner accents -->
+  <g opacity="0.15">
+    <line x1="30" y1="30" x2="120" y2="30" stroke="#DC2626" stroke-width="2"/>
+    <line x1="30" y1="30" x2="30" y2="120" stroke="#DC2626" stroke-width="2"/>
+    <line x1="1170" y1="600" x2="1080" y2="600" stroke="#DC2626" stroke-width="2"/>
+    <line x1="1170" y1="600" x2="1170" y2="510" stroke="#DC2626" stroke-width="2"/>
+  </g>
+
+  <!-- Floating particles -->
+  <g opacity="0.25">
+    <circle cx="150" cy="150" r="2" fill="white"/>
+    <circle cx="1050" cy="120" r="2" fill="white"/>
+    <circle cx="100" cy="480" r="1.5" fill="white"/>
+    <circle cx="1100" cy="500" r="1.5" fill="white"/>
+    <circle cx="350" cy="520" r="1.5" fill="#DC2626"/>
+    <circle cx="750" cy="130" r="1.5" fill="#DC2626"/>
+  </g>
+</svg>
