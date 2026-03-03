@@ -8,7 +8,7 @@
 
 	const prices = {
 		starter: { m: '₹2,999', a: '₹2,399' },
-		growth: { m: '₹4,999', a: '₹3,999' }
+		growth: { m: '₹9,999', a: '₹7,999' }
 	};
 </script>
 

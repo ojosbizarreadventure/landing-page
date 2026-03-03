@@ -2,6 +2,43 @@
 	import { onMount, tick } from 'svelte';
 	import Logo from '$lib/components/Logo.svelte';
 
+	/* ── Hero Carousel ── */
+	const heroSlides = [
+		{
+			headline: 'Stop managing work.<br>Start <span class="accent">growing.</span>',
+			desc: 'OJO unifies Sales, Projects, HR, and Finance into one AI-native OS — giving every team one source of truth and an engine that thinks ahead.'
+		},
+		{
+			headline: 'Ten tools. Zero context.<br>A <span class="accent">better way</span> exists.',
+			desc: 'Your CRM, project tracker, payroll, and invoices live in silos. Decisions slow down. OJO brings everything into one intelligent workspace.'
+		},
+		{
+			headline: 'One platform for your<br><span class="accent">entire</span> business.',
+			desc: 'From lead capture to invoice collection, OJO connects every department into one unified workflow — powered by AI that sees the full picture.'
+		}
+	];
+
+	let activeSlide = $state(0);
+	let slideTimer: ReturnType<typeof setInterval>;
+	let progressKey = $state(0); // bumped to restart CSS animation
+
+	function goToSlide(i: number) {
+		activeSlide = i;
+		progressKey++;
+		resetTimer();
+	}
+
+	function nextSlide() {
+		activeSlide = (activeSlide + 1) % heroSlides.length;
+		progressKey++;
+	}
+
+	function resetTimer() {
+		clearInterval(slideTimer);
+		slideTimer = setInterval(nextSlide, 5000);
+	}
+
+	/* ── Agent Demo ── */
 	interface AgentMsg {
 		html: string;
 		type: 'ai' | 'user';
@@ -62,12 +99,17 @@
 	}
 
 	onMount(() => {
+		// Start hero carousel
+		resetTimer();
+
 		setTimeout(() => {
 			document.querySelectorAll('.dm-bar-fill').forEach((el) => {
 				const w = (el as HTMLElement).getAttribute('data-w');
 				if (w) (el as HTMLElement).style.width = w;
 			});
 		}, 800);
+
+		return () => clearInterval(slideTimer);
 	});
 </script>
 
@@ -77,14 +119,42 @@
 
 <!-- HERO -->
 <section class="hero">
+	<!-- Aurora mesh background -->
+	<div class="hero-aurora" aria-hidden="true">
+		<div class="aurora-blob aurora-a"></div>
+		<div class="aurora-blob aurora-b"></div>
+		<div class="aurora-blob aurora-c"></div>
+		<div class="aurora-grid"></div>
+	</div>
+
 	<div class="container">
 		<div class="hero-content">
 			<div class="hero-badge reveal"><span class="hero-badge-dot"></span><span>Now in Early Access</span></div>
-			<h1 class="d1 reveal">Stop managing work.<br>Start <span class="accent">growing.</span></h1>
-			<p class="body-l hero-desc reveal">OJO is the AI-native operating system that unifies your Sales, Projects, HR, and Finance, giving every team one source of truth and an AI engine that thinks ahead.</p>
+
+			<!-- Carousel slides -->
+			<div class="hero-carousel">
+				{#each heroSlides as slide, i}
+					<div class="hero-slide" class:on={activeSlide === i}>
+						<h1 class="d1">{@html slide.headline}</h1>
+						<p class="body-l hero-desc">{slide.desc}</p>
+					</div>
+				{/each}
+			</div>
+
+			<!-- Progress bars -->
+			{#key progressKey}
+				<div class="hero-progress">
+					{#each heroSlides as _, i}
+						<button class="hero-prog-bar" class:on={activeSlide === i} onclick={() => goToSlide(i)} aria-label="Go to slide {i + 1}">
+							<span class="hero-prog-fill" class:on={activeSlide === i}></span>
+						</button>
+					{/each}
+				</div>
+			{/key}
+
 			<div class="hero-actions reveal">
 				<a class="btn-primary btn-primary-lg" href="/pricing">Start Free, No Credit Card &rarr;</a>
-				<a class="btn-outline-lg" href="/pricing">Watch 2-min Demo</a>
+				<a class="btn-outline-lg" href="/pricing">Watch 30-sec Video</a>
 			</div>
 			<div class="hero-proof reveal stagger">
 				<div class="hero-proof-stat"><strong>12,400+</strong><span>Tasks automated monthly</span></div>
@@ -109,7 +179,7 @@
 				<div class="demo-dot"></div><div class="demo-dot"></div><div class="demo-dot"></div>
 				<div style="margin-left:12px;display:flex;align-items:center;gap:6px">
 					<Logo height={18} />
-					<div class="demo-url" style="margin-left:0">app.getojo.com</div>
+					<div class="demo-url" style="margin-left:0">www.ojo.io</div>
 				</div>
 			</div>
 			<div class="demo-body">
