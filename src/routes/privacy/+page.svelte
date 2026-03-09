@@ -15,7 +15,7 @@
 <section class="section" style="padding-top:0">
 	<div class="container">
 		<div class="legal reveal">
-			<p>OJO Technologies ("OJO", "we", "us", or "our") operates the OJO platform at <strong>ojo.io</strong>, an AI-native business operating system that unifies Sales, Projects, HR, and Finance for small and medium businesses. This Privacy Policy describes how we collect, use, protect, and share your personal information when you use our platform, website, and services.</p>
+			<p>Life Designer Pvt Ltd ("OJO", "we", "us", or "our") operates the OJO platform at <strong>payments.ojo.io</strong>, an AI-native business operating system that unifies Sales, Projects, HR, and Finance for small and medium businesses. This Privacy Policy describes how we collect, use, protect, and share your personal information when you use our platform, website, and services.</p>
 			<p>By accessing or using OJO, you agree to the collection and use of information in accordance with this policy. If you do not agree with the terms of this policy, please do not use our services.</p>
 
 			<h2>1. Information We Collect</h2>
@@ -137,7 +137,7 @@
 			<ul>
 				<li><strong>Email:</strong> <a href="mailto:contact@ojo.io">contact@ojo.io</a></li>
 				<li><strong>Phone:</strong> +91 88255 62185</li>
-				<li><strong>Address:</strong> OJO Technologies, #30, 2nd Cross, Rajarajeshwari Layout, Bommanahalli, Bangalore South, Bangalore - 560068, Karnataka, India</li>
+				<li><strong>Address:</strong> 137, 7th Cross, 13th Main, HSR Layout, Sector 5, Bangalore, Karnataka, India - 560102</li>
 			</ul>
 		</div>
 	</div>

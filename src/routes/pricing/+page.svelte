@@ -39,7 +39,7 @@
 				<div class="pr-desc">For small teams starting out</div>
 				<div class="pr-amount">₹0</div>
 				<div class="pr-period">Up to 3 users & 2 projects</div>
-				<a class="pr-btn pr-btn-line" href="/pricing">Get Started Free</a>
+				<a class="pr-btn pr-btn-line" href="https://app.ojo.io/signup">Get Started Free</a>
 				<div class="pr-feats">
 					<div class="pr-feat">3 team members</div>
 					<div class="pr-feat">2 active projects</div>
@@ -54,7 +54,10 @@
 				<div class="pr-desc">For growing teams</div>
 				<div class="pr-amount">{prices.starter[period]}<span>/mo</span></div>
 				<div class="pr-period">Per workspace</div>
-				<a class="pr-btn pr-btn-line" href="/pricing">Start 14-Day Trial</a>
+				<div class="pr-btn-group">
+					<a class="pr-btn pr-btn-fill" href="/checkout?plan=starter&period={period}">Buy Now</a>
+					<a class="pr-btn pr-btn-line" href="/checkout?plan=starter&period={period}&trial=true">Start Free Trial</a>
+				</div>
 				<div class="pr-feats">
 					<div class="pr-feat">Up to 10 users</div>
 					<div class="pr-feat">5 active projects</div>
@@ -70,7 +73,10 @@
 				<div class="pr-desc">For scaling businesses</div>
 				<div class="pr-amount">{prices.growth[period]}<span>/mo</span></div>
 				<div class="pr-period">Per workspace</div>
-				<a class="pr-btn pr-btn-fill" href="/pricing">Start 14-Day Trial</a>
+				<div class="pr-btn-group">
+					<a class="pr-btn pr-btn-fill" href="/checkout?plan=growth&period={period}">Buy Now</a>
+					<a class="pr-btn pr-btn-line" href="/checkout?plan=growth&period={period}&trial=true">Start Free Trial</a>
+				</div>
 				<div class="pr-feats">
 					<div class="pr-feat">Up to 30 users</div>
 					<div class="pr-feat">Unlimited projects</div>
@@ -87,7 +93,7 @@
 				<div class="pr-desc">For large organizations</div>
 				<div class="pr-amount">Custom</div>
 				<div class="pr-period">Tailored to your needs</div>
-				<a class="pr-btn pr-btn-line" href="/pricing">Talk to Sales</a>
+				<a class="pr-btn pr-btn-line" href="/contact">Talk to Sales</a>
 				<div class="pr-feats">
 					<div class="pr-feat">Unlimited users & projects</div>
 					<div class="pr-feat">Custom workflows</div>
@@ -117,7 +123,7 @@
 			</div>
 			<div class="faq-i" class:open={openFaq === 2}>
 				<div class="faq-q" onclick={() => toggleFaq(2)}>Is there a free trial for paid plans?<span>+</span></div>
-				<div class="faq-a">Yes! All paid plans include a 14-day free trial with full access. No credit card required to start.</div>
+				<div class="faq-a">Yes! All paid plans include a 7-day free trial with full access. No credit card required to start.</div>
 			</div>
 			<div class="faq-i" class:open={openFaq === 3}>
 				<div class="faq-q" onclick={() => toggleFaq(3)}>Do you offer startup or NGO discounts?<span>+</span></div>

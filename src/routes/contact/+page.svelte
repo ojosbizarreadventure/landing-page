@@ -42,7 +42,7 @@
 					</div>
 					<div>
 						<div class="contact-label">Registered Office</div>
-						<div class="contact-val">#30, 2nd Cross, Rajarajeshwari Layout,<br>Bommanahalli, Bangalore South,<br>Bangalore - 560068, Karnataka</div>
+						<div class="contact-val">137, 7th Cross, 13th Main, HSR Layout,<br>Sector 5, Bangalore, Karnataka,<br>India - 560102</div>
 					</div>
 				</div>
 

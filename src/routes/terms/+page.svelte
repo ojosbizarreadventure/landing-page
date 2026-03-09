@@ -15,7 +15,7 @@
 <section class="section" style="padding-top:0">
 	<div class="container">
 		<div class="legal reveal">
-			<p>These Terms and Conditions ("Terms") govern your access to and use of the OJO platform, website, and services provided by OJO Technologies ("OJO", "we", "us", or "our"). Please read these Terms carefully before using our services.</p>
+			<p>These Terms and Conditions ("Terms") govern your access to and use of the OJO platform, website, and services provided by Life Designer Pvt Ltd ("OJO", "we", "us", or "our"). Please read these Terms carefully before using our services.</p>
 
 			<h2>1. Acceptance of Terms</h2>
 			<p>By creating an account, accessing, or using the OJO platform, you agree to be bound by these Terms and our <a href="/privacy">Privacy Policy</a>. If you are using OJO on behalf of an organization, you represent that you have the authority to bind that organization to these Terms.</p>
@@ -78,7 +78,7 @@
 				<li><strong>Free tier:</strong> OJO offers a free plan with limited features. No payment is required for the free tier.</li>
 				<li><strong>Paid plans:</strong> Paid subscriptions are billed monthly or annually as selected at the time of purchase. Prices are listed on our <a href="/pricing">Pricing page</a>.</li>
 				<li><strong>Auto-renewal:</strong> Paid subscriptions renew automatically. You may cancel before the renewal date to avoid charges.</li>
-				<li><strong>Refunds:</strong> Annual plans are eligible for a pro-rata refund within 14 days of purchase. Monthly plans are non-refundable for the current billing period.</li>
+				<li><strong>Refunds:</strong> Annual plans are eligible for a pro-rata refund within 7 days of purchase. Monthly plans are non-refundable for the current billing period.</li>
 				<li><strong>Taxes:</strong> Prices are exclusive of applicable taxes (GST, etc.) unless stated otherwise. You are responsible for any applicable taxes.</li>
 				<li><strong>Price changes:</strong> We will provide at least 30 days' notice before any price increases for existing subscribers.</li>
 				<li><strong>Failed payments:</strong> If a payment fails, we will attempt to collect up to 3 times. After which, your account may be downgraded to the free tier.</li>
@@ -86,9 +86,9 @@
 
 			<h2>8. Intellectual Property</h2>
 			<ul>
-				<li>The OJO platform, including its design, code, features, logos, and documentation, is owned by OJO Technologies and protected by intellectual property laws.</li>
+				<li>The OJO platform, including its design, code, features, logos, and documentation, is owned by Life Designer Pvt Ltd and protected by intellectual property laws.</li>
 				<li>You may not copy, modify, distribute, or create derivative works of any part of the platform without our written consent.</li>
-				<li>The "OJO" name, logo, and related trademarks are the property of OJO Technologies. You may not use them without our prior written permission.</li>
+				<li>The "OJO" name, logo, and related trademarks are the property of Life Designer Pvt Ltd. You may not use them without our prior written permission.</li>
 				<li>Feedback, suggestions, or feature requests you submit may be used by OJO to improve the platform without obligation to you.</li>
 			</ul>
 
@@ -105,12 +105,12 @@
 			<ul>
 				<li>OJO is provided on an "as is" and "as available" basis without warranties of any kind, either express or implied.</li>
 				<li>We do not warrant that the platform will meet all your requirements or that AI outputs will be accurate, complete, or reliable.</li>
-				<li>In no event shall OJO Technologies be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or business opportunities.</li>
+				<li>In no event shall Life Designer Pvt Ltd be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or business opportunities.</li>
 				<li>Our total liability for any claim arising from or related to these Terms shall not exceed the amount you paid to OJO in the 12 months preceding the claim.</li>
 			</ul>
 
 			<h2>11. Indemnification</h2>
-			<p>You agree to indemnify and hold harmless OJO Technologies, its officers, employees, and agents from any claims, damages, losses, or expenses (including legal fees) arising from:</p>
+			<p>You agree to indemnify and hold harmless Life Designer Pvt Ltd, its officers, employees, and agents from any claims, damages, losses, or expenses (including legal fees) arising from:</p>
 			<ul>
 				<li>Your use or misuse of the platform.</li>
 				<li>Your violation of these Terms.</li>
@@ -147,7 +147,7 @@
 			<ul>
 				<li><strong>Email:</strong> <a href="mailto:contact@ojo.io">contact@ojo.io</a></li>
 				<li><strong>Phone:</strong> +91 88255 62185</li>
-				<li><strong>Address:</strong> OJO Technologies, #30, 2nd Cross, Rajarajeshwari Layout, Bommanahalli, Bangalore South, Bangalore - 560068, Karnataka, India</li>
+				<li><strong>Address:</strong> 137, 7th Cross, 13th Main, HSR Layout, Sector 5, Bangalore, Karnataka, India - 560102</li>
 			</ul>
 		</div>
 	</div>

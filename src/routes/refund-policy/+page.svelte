@@ -15,7 +15,7 @@
 <section class="section" style="padding-top:0">
 	<div class="container">
 		<div class="legal reveal">
-			<p>Thank you for choosing OJO Technologies ("OJO", "we", "us", or "our"). Please read this Refund Policy carefully before making any purchase on our platform at <strong>ojo.io</strong>.</p>
+			<p>Thank you for choosing OJO, a product of Life Designer Pvt Ltd ("OJO", "we", "us", or "our"). Please read this Refund Policy carefully before making any purchase on our platform at <strong>payments.ojo.io</strong>.</p>
 
 			<h2>1. No Refunds</h2>
 			<p>All payments made for OJO subscriptions, add-ons, AI credit packs, or any other purchases are <strong>final and non-refundable</strong>. Once a payment has been successfully processed, no refunds will be issued under any circumstances, including but not limited to:</p>
@@ -37,7 +37,7 @@
 			</ul>
 
 			<h2>3. Free Trials</h2>
-			<p>OJO offers a 14-day free trial on paid plans. We strongly recommend evaluating the platform during the trial period before committing to a paid subscription. No payment is required during the trial, and you will not be charged if you cancel before the trial ends.</p>
+			<p>OJO offers a 7-day free trial on paid plans. We strongly recommend evaluating the platform during the trial period before committing to a paid subscription. No payment is required during the trial, and you will not be charged if you cancel before the trial ends.</p>
 
 			<h2>4. AI Credit Packs</h2>
 			<p>Additional AI credit packs purchased outside of your subscription plan are non-refundable. Unused credits do not carry over between billing periods unless specified in your plan terms.</p>

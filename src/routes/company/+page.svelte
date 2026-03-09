@@ -19,7 +19,7 @@
 				<p>"We spend more time managing work than doing it." That line from an SMB founder is what started everything.</p>
 				<p>Millions of businesses try to grow while drowning in broken workflows. Tools exist but they're siloed. ERPs exist but they're built for enterprises. Nothing was built from the ground up for the 50–500 employee company.</p>
 				<blockquote>SMBs power the economy, but their operations are stuck in the past.</blockquote>
-				<p>OJO is the AI-native operating system designed to change that. Built to think, learn, and act so teams can operate with the efficiency of companies ten times their size.</p>
+				<p>OJO is the AI-native operating system designed to change that. Built to think, learn, and act so teams can operate with the efficiency of companies ten times their size. OJO operates under the business name of Life Designer Pvt Ltd.</p>
 			</div>
 			<div></div>
 		</div>
