@@ -45,15 +45,7 @@
 			<h2>5. Pricing Changes</h2>
 			<p>If we change our pricing, your existing subscription will remain at the current rate until the end of your billing cycle. Refunds will not be issued due to subsequent price reductions or promotional offers.</p>
 
-			<h2>6. Exceptions</h2>
-			<p>In rare cases, we may consider exceptions at our sole discretion, such as:</p>
-			<ul>
-				<li>A verified technical error on our end that caused an incorrect charge</li>
-				<li>A payment processed after a cancellation was already submitted</li>
-			</ul>
-			<p>To request a review, contact us at <a href="mailto:contact@ojo.io">contact@ojo.io</a> with your account details and a description of the issue. We reserve the right to approve or deny any such request.</p>
-
-			<h2>7. Contact Us</h2>
+			<h2>6. Contact Us</h2>
 			<p>If you have questions about this Refund Policy, please reach out:</p>
 			<ul>
 				<li><strong>Email:</strong> <a href="mailto:contact@ojo.io">contact@ojo.io</a></li>
