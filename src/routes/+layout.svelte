@@ -107,6 +107,7 @@
 			<a href="/privacy">Privacy Policy</a>
 			<a href="/terms">Terms & Conditions</a>
 			<a href="/refund-policy">Refund Policy</a>
+			<a href="/ai-transparency">AI Transparency</a>
 		</div>
 		<div class="ft-col">
 			<div class="ft-col-t">Company</div>
