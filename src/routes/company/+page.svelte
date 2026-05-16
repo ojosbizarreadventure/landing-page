@@ -26,25 +26,6 @@
 	</div>
 </section>
 
-<section class="section section-alt">
-	<div class="container">
-		<p class="label reveal">The team</p>
-		<h2 class="d2 reveal" style="margin-bottom:48px">Builders, thinkers, <span class="accent">and doers.</span></h2>
-		<div class="team-grid reveal">
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">HK</div><div class="team-n">Hamna KA</div><div class="team-r">CEO</div></div>
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">SM</div><div class="team-n">Serah Mathews</div><div class="team-r">CBO</div></div>
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">AK</div><div class="team-n">Arunkrishnan</div><div class="team-r">CTO</div></div>
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">AS</div><div class="team-n">Amanuay S</div><div class="team-r">CPO</div></div>
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">VV</div><div class="team-n">Vinoth VV</div><div class="team-r">Product Head</div></div>
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">SP</div><div class="team-n">Sreejith S Pillai</div><div class="team-r">CGO & Mentor</div></div>
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">DS</div><div class="team-n">Diwiza Shree</div><div class="team-r">CMO</div></div>
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">NR</div><div class="team-n">Nikitha Reddy</div><div class="team-r">Design Head</div></div>
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">SH</div><div class="team-n">Shilpa</div><div class="team-r">CHRO</div></div>
-			<div class="cell-alt" style="text-align:center;padding:24px 14px"><div class="team-av">AN</div><div class="team-n">Anita</div><div class="team-r">CFO</div></div>
-		</div>
-	</div>
-</section>
-
 <section class="section">
 	<div class="container">
 		<p class="label reveal">Values</p>
@@ -73,9 +54,9 @@
 	<div class="container">
 		<div class="cta-inner">
 			<h2 class="d2 reveal">Experience the future of <span class="accent">business operations.</span></h2>
-			<p class="body-l reveal" style="margin-top:16px">Free for up to 3 users. No credit card required.</p>
+			<p class="body-l reveal" style="margin-top:16px">Talk to our team and see OJO in action.</p>
 			<div class="cta-actions reveal">
-				<a class="btn-primary btn-primary-lg" href="/pricing">Try OJO Free &rarr;</a>
+				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>
 			</div>
 		</div>
 	</div>

@@ -58,7 +58,7 @@
 			{mobileMenuOpen ? '✕' : '☰'}
 		</button>
 		<a class="btn-ghost" href="https://app.ojo.io" target="_blank" rel="noopener noreferrer">Log in</a>
-		<a class="btn-primary" href="https://app.ojo.io/signup">Start Free</a>
+		<a class="btn-primary" href="/contact">Talk to Sales</a>
 	</div>
 </nav>
 

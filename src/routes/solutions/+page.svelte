@@ -205,8 +205,8 @@
 			<h2 class="d2 reveal">See how OJO fits <span class="accent">your business.</span></h2>
 			<p class="body-l reveal" style="margin-top:16px">Book a 20-minute walkthrough tailored to your industry.</p>
 			<div class="cta-actions reveal">
-				<a class="btn-primary btn-primary-lg" href="/pricing">Schedule a Demo &rarr;</a>
-				<a class="btn-outline-lg" href="/pricing">Start Free</a>
+				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>
+				<a class="btn-outline-lg" href="/contact">Book a Demo</a>
 			</div>
 		</div>
 	</div>

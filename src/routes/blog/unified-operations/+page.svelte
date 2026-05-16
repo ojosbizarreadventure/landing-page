@@ -86,7 +86,7 @@
 		<div class="cta-inner">
 			<h2 class="d2 reveal">Break through the <span class="accent">ceiling.</span></h2>
 			<div class="cta-actions reveal" style="margin-top:32px">
-				<a class="btn-primary btn-primary-lg" href="/pricing">Try OJO Free &rarr;</a>
+				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>
 			</div>
 		</div>
 	</div>

@@ -1,24 +1,33 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	const plans: Record<string, { name: string; m: number; a: number; mLabel: string; aLabel: string; features: string[] }> = {
+	const plans: Record<string, { name: string; m: number; a: number; mLabel: string; aLabel: string; suffix: string; features: string[] }> = {
+		plus: {
+			name: 'Plus', m: 650, a: 585, mLabel: '₹650', aLabel: '₹585', suffix: '/user/mo',
+			features: ['5,000 AI credits / mo (DeepSeek V3)', 'Full CRM, Projects, HR & Accounts', 'AI lead scoring & recommendations', '50 lead call transcripts / mo', 'Unlimited integrations', '50 GB storage · Email support']
+		},
+		ultra: {
+			name: 'Ultra', m: 2700, a: 2430, mLabel: '₹2,700', aLabel: '₹2,430', suffix: '/user/mo',
+			features: ['25,000 AI credits / mo (GPT-5.4 frontier)', 'Everything in Plus + advanced AI', 'Sales-to-Delivery handoff', 'Cash flow prediction & profitability', 'Unlimited transcripts & automations', 'SSO/SAML · 99.9% SLA · Email + Chat']
+		},
 		starter: {
-			name: 'Starter', m: 2999, a: 2399, mLabel: '₹2,999', aLabel: '₹2,399',
+			name: 'Starter', m: 2999, a: 2399, mLabel: '₹2,999', aLabel: '₹2,399', suffix: '/mo',
 			features: ['Up to 10 users', '5 active projects', 'Full CRM + Projects', 'OJO AI \u00b7 500 credits/mo', 'Client portal', 'Email support']
 		},
 		growth: {
-			name: 'Growth', m: 9999, a: 7999, mLabel: '₹9,999', aLabel: '₹7,999',
+			name: 'Growth', m: 9999, a: 7999, mLabel: '₹9,999', aLabel: '₹7,999', suffix: '/mo',
 			features: ['Up to 30 users', 'Unlimited projects', 'All 5 modules included', 'OJO AI \u00b7 2,000 credits/mo', 'Advanced analytics', 'Priority support', 'Third-party integrations']
 		}
 	};
 
-	let planKey = $derived($page.url.searchParams.get('plan') || 'starter');
+	let planKey = $derived($page.url.searchParams.get('plan') || 'plus');
 	let periodKey = $derived(($page.url.searchParams.get('period') || 'm') as 'm' | 'a');
 	let isTrial = $derived($page.url.searchParams.get('trial') === 'true');
 
-	let plan = $derived(plans[planKey] || plans.starter);
+	let plan = $derived(plans[planKey] || plans.plus);
 	let priceLabel = $derived(periodKey === 'a' ? plan.aLabel : plan.mLabel);
 	let savings = $derived(periodKey === 'a' ? `₹${((plan.m - plan.a) * 12).toLocaleString('en-IN')}` : '');
+	let savingsPct = $derived(Math.round(((plan.m - plan.a) / plan.m) * 100));
 
 	let trialEnd = $derived(() => {
 		const d = new Date();
@@ -120,7 +129,7 @@
 					</div>
 					<div style="display:flex;justify-content:space-between;padding:12px 16px;background:var(--sf);border:1px solid var(--bd);border-radius:10px">
 						<span style="font-size:14px;color:var(--t2)">Billing after trial</span>
-						<span style="font-size:14px;font-weight:700">{priceLabel}/mo &middot; {periodKey === 'a' ? 'Annual' : 'Monthly'}</span>
+						<span style="font-size:14px;font-weight:700">{priceLabel}{plan.suffix} &middot; {periodKey === 'a' ? 'Annual' : 'Monthly'}</span>
 					</div>
 					<div style="display:flex;justify-content:space-between;padding:12px 16px;background:rgba(34,197,94,.06);border:1px solid rgba(34,197,94,.12);border-radius:10px">
 						<span style="font-size:14px;color:#16a34a;font-weight:600">Due today</span>
@@ -169,7 +178,7 @@
 					</div>
 					<div>
 						<div style="font-size:20px;font-weight:900;letter-spacing:-.02em">{plan.name} Plan</div>
-						<div style="font-size:13px;color:var(--t3)">Billed {periodKey === 'a' ? 'annually' : 'monthly'} &middot; {priceLabel}/mo</div>
+						<div style="font-size:13px;color:var(--t3)">Billed {periodKey === 'a' ? 'annually' : 'monthly'} &middot; {priceLabel}{plan.suffix}</div>
 					</div>
 				</div>
 
@@ -180,11 +189,11 @@
 					</div>
 					<div style="display:flex;justify-content:space-between;padding:12px 16px;background:var(--sf);border:1px solid var(--bd);border-radius:10px">
 						<span style="font-size:14px;color:var(--t2)">Billing</span>
-						<span style="font-size:14px;font-weight:700">{periodKey === 'a' ? 'Annual (Save 20%)' : 'Monthly'}</span>
+						<span style="font-size:14px;font-weight:700">{periodKey === 'a' ? `Annual (Save ${savingsPct}%)` : 'Monthly'}</span>
 					</div>
 					<div style="display:flex;justify-content:space-between;padding:12px 16px;background:var(--sf);border:1px solid var(--bd);border-radius:10px">
 						<span style="font-size:14px;color:var(--t2)">Price</span>
-						<span style="font-size:14px;font-weight:700">{priceLabel}/mo</span>
+						<span style="font-size:14px;font-weight:700">{priceLabel}{plan.suffix}</span>
 					</div>
 					{#if periodKey === 'a'}
 						<div style="display:flex;justify-content:space-between;padding:12px 16px;background:rgba(34,197,94,.06);border:1px solid rgba(34,197,94,.12);border-radius:10px">
