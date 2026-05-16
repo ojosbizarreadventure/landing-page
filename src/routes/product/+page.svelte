@@ -88,8 +88,8 @@
 			<h1 class="d1 reveal" style="max-width:660px">The AI engine behind<br><span class="accent">connected teams.</span></h1>
 			<p class="body-l hero-desc reveal">From lead capture to invoice collection, every department shares one brain, one timeline, one source of truth.</p>
 			<div class="hero-actions reveal">
-				<a class="btn-primary btn-primary-lg" href="/pricing">Start Free &rarr;</a>
-				<a class="btn-outline-lg" href="/pricing">Watch Product Tour</a>
+				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>
+				<a class="btn-outline-lg" href="/contact">Book a Demo</a>
 			</div>
 		</div>
 	</div>
@@ -263,10 +263,10 @@
 	<div class="container">
 		<div class="cta-inner">
 			<h2 class="d2 reveal">See every module <span class="accent">in action.</span></h2>
-			<p class="body-l reveal" style="margin-top:16px">Free for 3 users. No credit card. Minutes to set up.</p>
+			<p class="body-l reveal" style="margin-top:16px">Get a personalised walkthrough with our team.</p>
 			<div class="cta-actions reveal">
-				<a class="btn-primary btn-primary-lg" href="/pricing">Start Free &rarr;</a>
-				<a class="btn-outline-lg" href="/pricing">Book a Demo</a>
+				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>
+				<a class="btn-outline-lg" href="/contact">Book a Demo</a>
 			</div>
 		</div>
 	</div>

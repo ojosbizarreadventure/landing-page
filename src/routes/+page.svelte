@@ -59,7 +59,7 @@
 		'show overdue invoices': 'You have <em>2 overdue invoices</em> totaling ₹5.0L:<br><br><strong>INV-2847</strong> &middot; TechNova &middot; ₹3.2L &middot; 18 days overdue<br><strong>INV-2851</strong> &middot; GreenLeaf &middot; ₹1.8L &middot; 8 days overdue<br><br>Shall I trigger automated follow-ups?',
 		"who's underperforming this week?": "<strong>2 team members</strong> below 60% utilization:<br><br>&bull; Arjun K. at 42% (BrandSync), blocked on client feedback<br>&bull; Meera S. at 55% (CloudStack), 2 tasks unassigned<br><br>Recommendation: Reassign Arjun's blocked tasks to Meera to balance load."
 	};
-	const defaultResponse = "In the full version, I'd pull real-time data from your Sales, Projects, HR, and Finance modules to answer this instantly. <strong>Start your free trial to try it &rarr;</strong>";
+	const defaultResponse = "In the full version, I'd pull real-time data from your Sales, Projects, HR, and Finance modules to answer this instantly. <strong>Talk to our team to see it live &rarr;</strong>";
 
 	const quickPromptsList = [
 		'What should I focus on today?',
@@ -153,8 +153,8 @@
 			{/key}
 
 			<div class="hero-actions reveal">
-				<a class="btn-primary btn-primary-lg" href="/pricing">Start Free, No Credit Card &rarr;</a>
-				<a class="btn-outline-lg" href="/pricing">Watch 30-sec Video</a>
+				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>
+				<a class="btn-outline-lg" href="/contact">Book a Demo</a>
 			</div>
 			<div class="hero-proof reveal stagger">
 				<div class="hero-proof-stat"><strong>12,400+</strong><span>Tasks automated monthly</span></div>
@@ -311,12 +311,11 @@
 	<div class="container">
 		<div class="cta-inner">
 			<h2 class="d2 reveal">Stop juggling.<br>Start <span class="accent">building.</span></h2>
-			<p class="body-l reveal" style="margin-top:16px">Free for up to 3 users and 2 active projects. Set up in minutes.</p>
+			<p class="body-l reveal" style="margin-top:16px">Talk to our team and we'll tailor OJO to your business.</p>
 			<div class="cta-actions reveal">
-				<a class="btn-primary btn-primary-lg" href="/pricing">Start Free, No Credit Card &rarr;</a>
-				<a class="btn-outline-lg" href="/pricing">Schedule a Demo</a>
+				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>
+				<a class="btn-outline-lg" href="/contact">Book a Demo</a>
 			</div>
-			<p class="body-s reveal" style="margin-top:16px">Paid plans start at ₹2,999/month</p>
 		</div>
 	</div>
 </section>
