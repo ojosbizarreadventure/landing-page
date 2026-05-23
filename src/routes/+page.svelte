@@ -115,6 +115,31 @@
 
 <svelte:head>
 	<title>OJO | AI-Native Business Operating System for SMBs</title>
+
+	<meta
+		name="description"
+		content="OJO unifies Sales, Projects, HR, and Finance into one AI-native operating system for SMBs."
+	/>
+
+	<link
+		rel="canonical"
+		href="https://www.ojo.io/"
+	/>
+
+	<meta
+		name="robots"
+		content="index, follow"
+	/>
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "SoftwareApplication",
+			"name": "OJO",
+			"url": "https://www.ojo.io/",
+			"description": "AI-native business operating system for SMBs."
+		}
+	</script>
 </svelte:head>
 
 <!-- HERO -->
