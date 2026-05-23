@@ -118,26 +118,63 @@
 
 	<meta
 		name="description"
-		content="OJO unifies Sales, Projects, HR, and Finance into one AI-native operating system for SMBs."
-	/>
-
-	<link
-		rel="canonical"
-		href="https://www.ojo.io/"
+		content="OJO unifies Sales, Projects, HR, and Finance into one AI-native operating system for SMBs. Streamline operations, automate workflows, and scale faster."
 	/>
 
 	<meta
-		name="robots"
-		content="index, follow"
+		name="keywords"
+		content="AI business operating system, SMB software, CRM, HR management, finance automation, project management, AI ERP, OJO"
 	/>
 
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO AI" />
+
+	<meta name="publisher" content="OJO AI" />
+
+	<link rel="canonical" href="https://www.ojo.io/" />
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="OJO | AI-Native Business Operating System for SMBs" />
+
+	<meta
+		property="og:description"
+		content="One AI-native platform for Sales, Projects, HR, and Finance."
+	/>
+
+	<meta property="og:url" content="https://www.ojo.io/" />
+
+	<meta property="og:type" content="website" />
+
+	<meta property="og:site_name" content="OJO AI" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<meta
+		name="twitter:title"
+		content="OJO | AI-Native Business Operating System for SMBs"
+	/>
+
+	<meta
+		name="twitter:description"
+		content="One AI-native platform for Sales, Projects, HR, and Finance."
+	/>
+
+	<!-- Schema Markup -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "SoftwareApplication",
-			"name": "OJO",
-			"url": "https://www.ojo.io/",
-			"description": "AI-native business operating system for SMBs."
+			"name": "OJO AI",
+			"url": "https://www.ojo.io",
+			"applicationCategory": "BusinessApplication",
+			"operatingSystem": "Web",
+			"description": "AI-native business operating system for SMBs.",
+			"publisher": {
+				"@type": "Organization",
+				"name": "OJO AI"
+			}
 		}
 	</script>
 </svelte:head>
