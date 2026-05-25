@@ -1,5 +1,25 @@
 <svelte:head>
-	<title>Privacy Policy | OJO</title>
+	<title>Privacy Policy | OJO AI Business Operating System</title>
+
+	<meta
+		name="description"
+		content="Read OJO's Privacy Policy to understand how we collect, use, store, and protect your personal and business data across our AI-powered platform."
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO" />
+
+	<link rel="canonical" href="https://www.ojo.io/privacy" />
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Privacy Policy | OJO" />
+	<meta
+		property="og:description"
+		content="Learn how OJO protects user and business data across our platform."
+	/>
+	<meta property="og:url" content="https://www.ojo.io/privacy" />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">

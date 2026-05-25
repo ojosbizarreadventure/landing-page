@@ -78,7 +78,71 @@
 </script>
 
 <svelte:head>
-	<title>Product | OJO</title>
+	<title>AI Business Operating System for SMBs | OJO Product</title>
+
+	<meta
+		name="description"
+		content="Explore OJO's AI-native business operating system for SMBs. Manage Sales, CRM, Projects, HR, Payroll, and Finance in one unified platform."
+	/>
+
+	<meta
+		name="keywords"
+		content="AI business operating system, SMB ERP software, AI CRM software, project management platform, HR payroll software, finance automation platform, AI business software"
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
+
+	<link rel="canonical" href="https://www.ojo.io/product" />
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.ojo.io/product" />
+	<meta property="og:title" content="AI Business Operating System for SMBs | OJO Product" />
+	<meta
+		property="og:description"
+		content="Unify Sales, Projects, HR, and Finance with OJO's AI-native operating system built for growing SMBs."
+	/>
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://www.ojo.io/product" />
+	<meta name="twitter:title" content="AI Business Operating System for SMBs | OJO Product" />
+	<meta
+		name="twitter:description"
+		content="AI-powered CRM, Projects, HR, and Finance platform for SMBs. Built to streamline operations and scale faster."
+	/>
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Schema Markup -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "SoftwareApplication",
+			"name": "OJO",
+			"url": "https://www.ojo.io/product",
+			"applicationCategory": "BusinessApplication",
+			"operatingSystem": "Web",
+			"description": "OJO is an AI-native business operating system that unifies Sales, CRM, Projects, HR, Payroll, and Finance for SMBs.",
+			"brand": {
+				"@type": "Brand",
+				"name": "OJO"
+			},
+			"offers": {
+				"@type": "Offer",
+				"price": "0",
+				"priceCurrency": "USD"
+			},
+			"publisher": {
+				"@type": "Organization",
+				"name": "OJO",
+				"url": "https://www.ojo.io"
+			}
+		}
+	</script>
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">

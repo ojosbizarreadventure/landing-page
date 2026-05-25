@@ -1,5 +1,67 @@
 <svelte:head>
-	<title>Company | OJO</title>
+	<title>About OJO | AI-Native Business Operating System for SMBs</title>
+
+	<meta
+		name="description"
+		content="Learn about OJO, the AI-native business operating system helping SMBs streamline Sales, Projects, HR, Payroll, and Finance in one unified platform."
+	/>
+
+	<meta
+		name="keywords"
+		content="about OJO, AI business software company, SMB operating system, AI-native ERP platform, business automation company, SaaS company for SMBs"
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
+
+	<link rel="canonical" href="https://www.ojo.io/company" />
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.ojo.io/company" />
+	<meta property="og:title" content="About OJO | AI-Native Business Operating System for SMBs" />
+	<meta
+		property="og:description"
+		content="Discover OJO's mission to simplify business operations with an AI-native platform built for growing SMBs."
+	/>
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://www.ojo.io/company" />
+	<meta name="twitter:title" content="About OJO | AI-Native Business Operating System for SMBs" />
+	<meta
+		name="twitter:description"
+		content="Meet the team and mission behind OJO, the AI-powered operating system designed for modern SMBs."
+	/>
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Schema Markup -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "OJO",
+			"url": "https://www.ojo.io",
+			"logo": "https://www.ojo.io/logo.png",
+			"description": "OJO is an AI-native business operating system built for SMBs to manage Sales, Projects, HR, Payroll, and Finance from one platform.",
+			"sameAs": [
+				"https://www.linkedin.com/",
+				"https://twitter.com/"
+			],
+			"foundingLocation": {
+				"@type": "Place",
+				"name": "India"
+			},
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"contactType": "sales",
+				"url": "https://www.ojo.io/contact"
+			}
+		}
+	</script>
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">

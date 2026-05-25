@@ -78,7 +78,66 @@
 </script>
 
 <svelte:head>
-	<title>Solutions | OJO</title>
+	<title>AI Business Solutions for SMBs | OJO Solutions</title>
+
+	<meta
+		name="description"
+		content="Discover AI-powered business solutions by OJO for Sales, CRM, Projects, HR, Payroll, and Finance. Built to help SMBs streamline operations and scale faster."
+	/>
+
+	<meta
+		name="keywords"
+		content="AI business solutions, SMB software solutions, AI CRM platform, project management software, HR payroll software, finance automation software, business operating system"
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
+
+	<link rel="canonical" href="https://www.ojo.io/solutions" />
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.ojo.io/solutions" />
+	<meta property="og:title" content="AI Business Solutions for SMBs | OJO Solutions" />
+	<meta
+		property="og:description"
+		content="Explore AI-powered business solutions for Sales, Projects, HR, and Finance with OJO's unified operating platform."
+	/>
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://www.ojo.io/solutions" />
+	<meta name="twitter:title" content="AI Business Solutions for SMBs | OJO Solutions" />
+	<meta
+		name="twitter:description"
+		content="AI-native business solutions for SMBs to automate operations, improve productivity, and drive growth."
+	/>
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Schema Markup -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebPage",
+			"name": "OJO Solutions",
+			"url": "https://www.ojo.io/solutions",
+			"description": "AI-powered business solutions for SMBs including CRM, Projects, HR, Payroll, and Finance management.",
+			"publisher": {
+				"@type": "Organization",
+				"name": "OJO",
+				"url": "https://www.ojo.io"
+			},
+			"mainEntity": {
+				"@type": "SoftwareApplication",
+				"name": "OJO",
+				"applicationCategory": "BusinessApplication",
+				"operatingSystem": "Web"
+			}
+		}
+	</script>
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">
