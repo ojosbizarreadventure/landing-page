@@ -18,7 +18,60 @@
 </script>
 
 <svelte:head>
-	<title>Contact | OJO</title>
+	<title>Contact OJO | Talk to Our AI Business Solutions Team</title>
+
+	<meta
+		name="description"
+		content="Contact OJO to learn how our AI-native business operating system can streamline Sales, Projects, HR, and Finance for your growing business."
+	/>
+
+	<meta
+		name="keywords"
+		content="contact OJO, AI business software contact, business automation demo, CRM software contact, SaaS contact page, OJO support, AI operating system"
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
+
+	<link rel="canonical" href="https://www.ojo.io/contact" />
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.ojo.io/contact" />
+	<meta property="og:title" content="Contact OJO | Talk to Our AI Business Solutions Team" />
+	<meta
+		property="og:description"
+		content="Get in touch with OJO for product demos, pricing, partnerships, and AI business software solutions."
+	/>
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://www.ojo.io/contact" />
+	<meta name="twitter:title" content="Contact OJO | Talk to Our AI Business Solutions Team" />
+	<meta
+		name="twitter:description"
+		content="Talk to the OJO team about AI-powered business software, demos, and solutions for SMBs."
+	/>
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Schema Markup -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ContactPage",
+			"name": "Contact OJO",
+			"url": "https://www.ojo.io/contact",
+			"description": "Contact OJO for AI-powered business operating system solutions and support.",
+			"publisher": {
+				"@type": "Organization",
+				"name": "OJO",
+				"url": "https://www.ojo.io"
+			}
+		}
+	</script>
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">

@@ -1,5 +1,25 @@
 <svelte:head>
-	<title>Refund Policy | OJO</title>
+	<title>Refund Policy | OJO AI Business Operating System</title>
+
+	<meta
+		name="description"
+		content="Read OJO's Refund Policy for information about cancellations, subscriptions, billing, and refund eligibility."
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO" />
+
+	<link rel="canonical" href="https://www.ojo.io/refund-policy" />
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Refund Policy | OJO" />
+	<meta
+		property="og:description"
+		content="Understand OJO's cancellation, billing, and refund terms for customers."
+	/>
+	<meta property="og:url" content="https://www.ojo.io/refund-policy" />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">

@@ -1,5 +1,25 @@
 <svelte:head>
-	<title>Terms & Conditions | OJO</title>
+	<title>Terms & Conditions | OJO AI Business Operating System</title>
+
+	<meta
+		name="description"
+		content="Read OJO's Terms & Conditions covering platform usage, subscriptions, billing, user responsibilities, and legal agreements."
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO" />
+
+	<link rel="canonical" href="https://www.ojo.io/terms" />
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Terms & Conditions | OJO" />
+	<meta
+		property="og:description"
+		content="Review OJO's platform terms, subscription policies, and user agreements."
+	/>
+	<meta property="og:url" content="https://www.ojo.io/terms" />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">

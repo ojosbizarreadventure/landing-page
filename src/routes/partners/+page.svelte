@@ -20,7 +20,64 @@
 </script>
 
 <svelte:head>
-	<title>Partners | OJO</title>
+	<title>OJO Partners | AI Business Partnerships & Integrations</title>
+
+	<meta
+		name="description"
+		content="Partner with OJO to deliver AI-powered business solutions for SMBs. Explore technology partnerships, integrations, and collaboration opportunities."
+	/>
+
+	<meta
+		name="keywords"
+		content="OJO partners, AI software partnerships, SaaS partnerships, business software integrations, technology partners, SMB software ecosystem, AI business collaboration"
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
+
+	<link rel="canonical" href="https://www.ojo.io/partners" />
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.ojo.io/partners" />
+	<meta property="og:title" content="OJO Partners | AI Business Partnerships & Integrations" />
+	<meta
+		property="og:description"
+		content="Explore partnership opportunities with OJO for AI-powered business automation, integrations, and SMB growth solutions."
+	/>
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://www.ojo.io/partners" />
+	<meta name="twitter:title" content="OJO Partners | AI Business Partnerships & Integrations" />
+	<meta
+		name="twitter:description"
+		content="Join the OJO partner ecosystem to deliver AI-native business software solutions for growing SMBs."
+	/>
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
+
+	<!-- Schema Markup -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebPage",
+			"name": "OJO Partners",
+			"url": "https://www.ojo.io/partners",
+			"description": "Partnership and integration opportunities with OJO's AI-native business operating system.",
+			"publisher": {
+				"@type": "Organization",
+				"name": "OJO",
+				"url": "https://www.ojo.io"
+			},
+			"mainEntity": {
+				"@type": "Organization",
+				"name": "OJO"
+			}
+		}
+	</script>
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">
