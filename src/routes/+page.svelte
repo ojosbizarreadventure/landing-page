@@ -123,8 +123,8 @@
 	/>
 
 	<meta
-		name="keywords"
-		content="AI business software India, AI-native CRM India, business superapp for SMBs, project management software India, HR software for agencies, payroll software India SMB, accounting software for consultancies, OJO business OS, best CRM for IT companies India, AI operating system for SMBs, replace Zoho with AI, Monday.com alternative India, ClickUp alternative India, Odoo alternative India, business management software Bangalore, all-in-one business platform India, OJO Genie AI assistant, knowledge industry software India"
+	name="keywords"
+	content="AI business software India, AI-native CRM India, business superapp for SMBs, project management software India, HR software India, payroll software India, accounting software India, business management software India, all-in-one business platform India, CRM for SMBs, AI operating system for businesses, OJO business OS"
 	/>
 
 	<meta name="robots" content="index, follow" />
