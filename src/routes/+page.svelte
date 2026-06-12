@@ -114,16 +114,17 @@
 </script>
 
 <svelte:head>
-	<title>OJO | AI-Native Business Operating System for SMBs</title>
+	<title>India's First AI-Native Business Superapp for SMBs | OJO</title>    
+	
 
 	<meta
 		name="description"
-		content="OJO unifies Sales, Projects, HR, and Finance into one AI-native operating system for SMBs. Streamline operations, automate workflows, and scale faster."
+		content="OJO is India's First AI-Native Business Superapp unifying CRM, Projects, HR, Payroll, Accounting & more in one platform. Built for SMBs with 50–500 employees. Stop managing work. Start building."
 	/>
 
 	<meta
-		name="keywords"
-		content="AI business operating system, SMB software, CRM, HR management, finance automation, project management, AI ERP, OJO"
+	name="keywords"
+	content="AI business software India, AI-native CRM India, business superapp for SMBs, project management software India, HR software India, payroll software India, accounting software India, business management software India, all-in-one business platform India, CRM for SMBs, AI operating system for businesses, OJO business OS"
 	/>
 
 	<meta name="robots" content="index, follow" />

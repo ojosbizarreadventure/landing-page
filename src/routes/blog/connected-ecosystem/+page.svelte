@@ -1,5 +1,51 @@
 <svelte:head>
-	<title>The Connected Ecosystem | OJO Blog</title>
+	<title>Unified Platforms and the Future of Business | OJO Blog</title>
+
+	<meta
+		name="description"
+		content="Learn why unified business platforms are replacing disconnected tools and how connected ecosystems improve collaboration, visibility, efficiency, and business growth."
+	/>
+
+	<meta
+		name="keywords"
+		content="connected ecosystem, unified business platform, business operating system, integrated business software, business automation, operational efficiency, digital transformation, AI business platform, business collaboration tools, unified operations, SMB software, enterprise workflow management, OJO AI"
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO AI" />
+
+	<meta name="publisher" content="OJO AI" />
+
+	<link rel="canonical" href="https://www.ojo.io/blog/connected-ecosystem" />
+
+	<meta
+		property="og:title"
+		content="The Connected Ecosystem: Why Unified Platforms Will Define the Next Era of Business | OJO Blog"
+	/>
+
+	<meta
+		property="og:description"
+		content="Discover how unified platforms eliminate silos, improve decision-making, and create a connected ecosystem for modern businesses."
+	/>
+
+	<meta property="og:url" content="https://www.ojo.io/blog/connected-ecosystem" />
+
+	<meta property="og:type" content="article" />
+
+	<meta property="og:site_name" content="OJO AI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<meta
+		name="twitter:title"
+		content="The Connected Ecosystem: Why Unified Platforms Will Define the Next Era of Business | OJO Blog"
+	/>
+
+	<meta
+		name="twitter:description"
+		content="Explore why connected business ecosystems and unified platforms are becoming essential for growth and operational excellence."
+	/>
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">

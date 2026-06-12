@@ -1,6 +1,68 @@
 <svelte:head>
 	<title>AI Transparency Policy | OJO</title>
+
+	<meta
+		name="description"
+		content="Learn how OJO uses artificial intelligence responsibly, including data handling, privacy safeguards, user control, and ethical AI practices across our AI-native business operating system."
+	/>
+
+	<meta
+		name="keywords"
+		content="AI transparency policy, responsible AI, AI governance, AI privacy, AI security, AI data handling, ethical AI, OpenAI integration, business AI transparency, AI business software, AI compliance, AI accountability, AI-powered business operations, artificial intelligence policy, secure AI systems, OJO AI, AI-native business operating system, AI ethics, AI data privacy, enterprise AI transparency"
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO AI" />
+
+	<meta name="publisher" content="OJO AI" />
+
+	<link rel="canonical" href="https://www.ojo.io/ai-transparency" />
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="AI Transparency Policy | OJO" />
+
+	<meta
+		property="og:description"
+		content="Discover how OJO uses AI responsibly, protects customer data, and maintains transparency across AI-powered business operations."
+	/>
+
+	<meta property="og:url" content="https://www.ojo.io/ai-transparency" />
+
+	<meta property="og:type" content="website" />
+
+	<meta property="og:site_name" content="OJO AI" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<meta
+		name="twitter:title"
+		content="AI Transparency Policy | OJO"
+	/>
+
+	<meta
+		name="twitter:description"
+		content="Learn about OJO's approach to responsible AI, data privacy, security, and transparency."
+	/>
+
+	<!-- Schema Markup -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebPage",
+			"name": "AI Transparency Policy",
+			"url": "https://www.ojo.io/ai-transparency",
+			"description": "OJO's AI Transparency Policy explains how artificial intelligence is used, how data is handled, and the safeguards in place to protect users.",
+			"publisher": {
+				"@type": "Organization",
+				"name": "OJO AI",
+				"url": "https://www.ojo.io"
+			}
+		}
+	</script>
 </svelte:head>
+
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">
 	<div class="container">

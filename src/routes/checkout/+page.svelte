@@ -1,3 +1,4 @@
+
 <script lang="ts">
 	import { page } from '$app/stores';
 
@@ -93,6 +94,20 @@
 
 <svelte:head>
 	<title>{isTrial ? 'Start Free Trial' : 'Checkout'} | OJO</title>
+
+	<meta
+		name="description"
+		content="Complete your OJO subscription purchase or start a free trial. Access AI-powered CRM, Projects, HR, Finance, and business automation tools."
+	/>
+
+	<meta
+		name="keywords"
+		content="OJO checkout, OJO pricing, OJO subscription, AI business software, business operating system, CRM software, project management software, HR software, finance management software, business automation platform"
+	/>
+
+	<meta name="robots" content="noindex, nofollow" />
+
+	<link rel="canonical" href="https://www.ojo.io/checkout" />
 </svelte:head>
 
 {#if isTrial}
