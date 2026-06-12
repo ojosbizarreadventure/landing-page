@@ -1,5 +1,51 @@
 <svelte:head>
-	<title>AI Won't Replace Your Team | OJO Blog</title>
+	<title>AI Makes Teams More Creative, Not Replaceable | OJO</title>
+
+	<meta
+		name="description"
+		content="Discover how AI empowers teams by automating repetitive tasks, creating space for creativity, improving productivity, and helping businesses achieve better outcomes."
+	/>
+
+	<meta
+		name="keywords"
+		content="AI productivity, AI in business, AI and creativity, AI workforce, AI automation, future of work, AI-augmented teams, business productivity, workplace automation, creative teams, AI-powered workforce, AI collaboration, employee productivity, business growth, AI for SMBs, OJO AI"
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO AI" />
+
+	<meta name="publisher" content="OJO AI" />
+
+	<link rel="canonical" href="https://www.ojo.io/blog/ai-productivity" />
+
+	<meta
+		property="og:title"
+		content="AI Won't Replace Your Team. It Will Make Them Unreasonably Creative. | OJO Blog"
+	/>
+
+	<meta
+		property="og:description"
+		content="Learn how AI helps teams focus on creative and strategic work by reducing repetitive tasks and improving productivity."
+	/>
+
+	<meta property="og:url" content="https://www.ojo.io/blog/ai-productivity" />
+
+	<meta property="og:type" content="article" />
+
+	<meta property="og:site_name" content="OJO AI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<meta
+		name="twitter:title"
+		content="AI Won't Replace Your Team. It Will Make Them Unreasonably Creative. | OJO Blog"
+	/>
+
+	<meta
+		name="twitter:description"
+		content="Explore how AI augments human potential, boosts productivity, and unlocks creativity in modern teams."
+	/>
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">

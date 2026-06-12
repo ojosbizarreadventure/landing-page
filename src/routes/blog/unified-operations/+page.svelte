@@ -1,5 +1,51 @@
 <svelte:head>
-	<title>Unified Operations | OJO Blog</title>
+	<title>Unified Operations: The Key to Scaling Business | OJO Blog</title>
+
+	<meta
+		name="description"
+		content="Discover how unified operations help growing businesses eliminate silos, improve decision-making, increase efficiency, and scale with confidence."
+	/>
+
+	<meta
+		name="keywords"
+		content="unified operations, business operations management, operational efficiency, business growth, workflow automation, integrated business software, business operating system, SMB operations, connected business systems, operational excellence, digital transformation, business productivity, OJO AI"
+	/>
+
+	<meta name="robots" content="index, follow" />
+
+	<meta name="author" content="OJO AI" />
+
+	<meta name="publisher" content="OJO AI" />
+
+	<link rel="canonical" href="https://www.ojo.io/blog/unified-operations" />
+
+	<meta
+		property="og:title"
+		content="Unified Operations: The Quiet Advantage That Separates Growing Companies from Struggling Ones | OJO Blog"
+	/>
+
+	<meta
+		property="og:description"
+		content="Learn how unified operations eliminate information silos, improve visibility, and help businesses scale more effectively."
+	/>
+
+	<meta property="og:url" content="https://www.ojo.io/blog/unified-operations" />
+
+	<meta property="og:type" content="article" />
+
+	<meta property="og:site_name" content="OJO AI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<meta
+		name="twitter:title"
+		content="Unified Operations: The Quiet Advantage That Separates Growing Companies from Struggling Ones | OJO Blog"
+	/>
+
+	<meta
+		name="twitter:description"
+		content="Explore why unified operations are essential for business growth, operational efficiency, and long-term scalability."
+	/>
 </svelte:head>
 
 <section class="hero" style="min-height:auto;padding-bottom:40px">
