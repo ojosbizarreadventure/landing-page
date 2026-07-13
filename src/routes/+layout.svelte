@@ -117,7 +117,7 @@
 		</div>
 	</div>
 	<div class="ft-btm">
-		<div class="ft-cp">&copy; 2026 OJO AI, a product of Life Designer Pvt Ltd. All rights reserved.</div>
+		<div class="ft-cp">&copy; 2026 OJO AI, a product of Ojo AI Pvt Ltd. All rights reserved.</div>
 		<div class="ft-lg">
 			<a href="/contact">Contact</a>
 		</div>

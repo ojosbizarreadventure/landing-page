@@ -35,7 +35,7 @@
 <section class="section" style="padding-top:0">
 	<div class="container">
 		<div class="legal reveal">
-			<p>Thank you for choosing OJO, a product of Life Designer Pvt Ltd ("OJO", "we", "us", or "our"). Please read this Refund Policy carefully before making any purchase on our platform at <strong>payments.ojo.io</strong>.</p>
+			<p>Thank you for choosing OJO, a product of Ojo AI Pvt Ltd ("OJO", "we", "us", or "our"). Please read this Refund Policy carefully before making any purchase on our platform at <strong>payments.ojo.io</strong>.</p>
 
 			<h2>1. No Refunds</h2>
 			<p>All payments made for OJO subscriptions, add-ons, AI credit packs, or any other purchases are <strong>final and non-refundable</strong>. Once a payment has been successfully processed, no refunds will be issued under any circumstances, including but not limited to:</p>
