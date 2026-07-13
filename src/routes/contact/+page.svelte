@@ -94,8 +94,18 @@
 						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--r)" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
 					</div>
 					<div>
-						<div class="contact-label">Registered Office</div>
-						<div class="contact-val">137, 7th Cross, 13th Main, HSR Layout,<br>Sector 5, Bangalore, Karnataka,<br>India - 560102</div>
+						<div class="contact-label">Registered Address</div>
+						<div class="contact-val"><strong style="color:var(--t1);font-weight:800">Ojo AI Pvt Ltd</strong><br>30, 2nd Cross, Raja Rajeshwari Layout,<br>Bommanahalli, Bangalore,<br>Karnataka, India - 560 068</div>
+					</div>
+				</div>
+
+				<div class="contact-block">
+					<div class="contact-icon">
+						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--r)" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+					</div>
+					<div>
+						<div class="contact-label">Business Address</div>
+						<div class="contact-val">137, 7th Cross, 13th Main, HSR Layout,<br>Sector 5, Bangalore, Karnataka,<br>India - 560 102</div>
 					</div>
 				</div>
 
