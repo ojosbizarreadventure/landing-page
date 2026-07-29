@@ -5,7 +5,7 @@
 	const plans: Record<string, { name: string; m: number; a: number; mLabel: string; aLabel: string; suffix: string; features: string[] }> = {
 		plus: {
 			name: 'Plus', m: 650, a: 585, mLabel: '₹650', aLabel: '₹585', suffix: '/user/mo',
-			features: ['5,000 AI credits / mo (DeepSeek V3)', 'Full CRM, Projects, HR & Accounts', 'AI lead scoring & recommendations', '50 lead call transcripts / mo', 'Unlimited integrations', '50 GB storage · Email support']
+			features: ['5,000 AI credits / mo (DeepSeek V3)', 'Full CRM, Projects, Manufacturing, HR & Accounts', 'AI lead scoring & recommendations', '50 lead call transcripts / mo', 'Unlimited integrations', '50 GB storage · Email support']
 		},
 		ultra: {
 			name: 'Ultra', m: 2700, a: 2430, mLabel: '₹2,700', aLabel: '₹2,430', suffix: '/user/mo',
@@ -13,11 +13,11 @@
 		},
 		starter: {
 			name: 'Starter', m: 2999, a: 2399, mLabel: '₹2,999', aLabel: '₹2,399', suffix: '/mo',
-			features: ['Up to 10 users', '5 active projects', 'Full CRM + Projects', 'OJO AI \u00b7 500 credits/mo', 'Client portal', 'Email support']
+			features: ['Up to 10 users', '5 active projects', 'Full CRM + Projects', 'Telugo AI \u00b7 500 credits/mo', 'Client portal', 'Email support']
 		},
 		growth: {
 			name: 'Growth', m: 9999, a: 7999, mLabel: '₹9,999', aLabel: '₹7,999', suffix: '/mo',
-			features: ['Up to 30 users', 'Unlimited projects', 'All 5 modules included', 'OJO AI \u00b7 2,000 credits/mo', 'Advanced analytics', 'Priority support', 'Third-party integrations']
+			features: ['Up to 30 users', 'Unlimited projects', 'All 5 modules included', 'Telugo AI \u00b7 2,000 credits/mo', 'Advanced analytics', 'Priority support', 'Third-party integrations']
 		}
 	};
 
@@ -93,21 +93,21 @@
 </script>
 
 <svelte:head>
-	<title>{isTrial ? 'Start Free Trial' : 'Checkout'} | OJO</title>
+	<title>{isTrial ? 'Start Free Trial' : 'Checkout'} | Telugo</title>
 
 	<meta
 		name="description"
-		content="Complete your OJO subscription purchase or start a free trial. Access AI-powered CRM, Projects, HR, Finance, and business automation tools."
+		content="Complete your Telugo subscription purchase or start a free trial. Access AI-powered CRM, Projects, Manufacturing, HR, Finance and business automation tools."
 	/>
 
 	<meta
 		name="keywords"
-		content="OJO checkout, OJO pricing, OJO subscription, AI business software, business operating system, CRM software, project management software, HR software, finance management software, business automation platform"
+		content="Telugo checkout, Telugo pricing, Telugo subscription, AI business software, business operating system, CRM software, project management software, HR software, finance management software, business automation platform"
 	/>
 
 	<meta name="robots" content="noindex, nofollow" />
 
-	<link rel="canonical" href="https://www.ojo.io/checkout" />
+	<link rel="canonical" href="https://www.telugo.ai/checkout" />
 </svelte:head>
 
 {#if isTrial}
@@ -128,8 +128,8 @@
 		<div class="container" style="max-width:640px">
 			<div class="checkout-form" style="margin-bottom:24px">
 				<div style="display:flex;align-items:center;gap:12px;margin-bottom:24px">
-					<div style="width:44px;height:44px;border-radius:12px;background:var(--r-g);border:1px solid rgba(220,38,38,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0">
-						<svg viewBox="0 0 24 24" fill="none" stroke="var(--r)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:22px;height:22px"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+					<div style="width:44px;height:44px;border-radius:12px;background:var(--tq-g);border:1px solid var(--tq-bd);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+						<svg viewBox="0 0 24 24" fill="none" stroke="var(--tq)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:22px;height:22px"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
 					</div>
 					<div>
 						<div style="font-size:20px;font-weight:900;letter-spacing:-.02em">{plan.name} Plan</div>
@@ -165,7 +165,7 @@
 					</div>
 				</div>
 
-				<a class="checkout-btn checkout-btn-primary" href="https://app.ojo.io/signup" style="display:block;text-align:center">
+				<a class="checkout-btn checkout-btn-primary" href="https://app.telugo.ai/signup" style="display:block;text-align:center">
 					Activate Free Trial
 				</a>
 			</div>
@@ -188,8 +188,8 @@
 			<!-- Plan summary -->
 			<div class="checkout-form" style="margin-bottom:24px">
 				<div style="display:flex;align-items:center;gap:12px;margin-bottom:24px">
-					<div style="width:44px;height:44px;border-radius:12px;background:var(--r-g);border:1px solid rgba(220,38,38,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0">
-						<svg viewBox="0 0 24 24" fill="none" stroke="var(--r)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:22px;height:22px"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+					<div style="width:44px;height:44px;border-radius:12px;background:var(--tq-g);border:1px solid var(--tq-bd);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+						<svg viewBox="0 0 24 24" fill="none" stroke="var(--tq)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:22px;height:22px"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
 					</div>
 					<div>
 						<div style="font-size:20px;font-weight:900;letter-spacing:-.02em">{plan.name} Plan</div>
@@ -322,7 +322,7 @@
 			<!-- Primary CTA — always visible -->
 			<a
 				class="checkout-btn checkout-btn-primary"
-				href={otpVerified ? `https://payments.ojo.io?plan=${planKey}&period=${periodKey}` : undefined}
+				href={otpVerified ? `https://payments.telugo.ai?plan=${planKey}&period=${periodKey}` : undefined}
 				style="display:block;text-align:center;margin-top:24px;font-size:16px;padding:16px 24px;{otpVerified ? '' : 'opacity:.45;pointer-events:none'}"
 				aria-disabled={!otpVerified}
 			>

@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Unified Platforms and the Future of Business | OJO Blog</title>
+	<title>Unified Platforms and the Future of Business | Telugo Blog</title>
 
 	<meta
 		name="description"
@@ -8,20 +8,20 @@
 
 	<meta
 		name="keywords"
-		content="connected ecosystem, unified business platform, business operating system, integrated business software, business automation, operational efficiency, digital transformation, AI business platform, business collaboration tools, unified operations, SMB software, enterprise workflow management, OJO AI"
+		content="connected ecosystem, unified business platform, business operating system, integrated business software, business automation, operational efficiency, digital transformation, AI business platform, business collaboration tools, unified operations, SMB software, enterprise workflow management, Telugo AI"
 	/>
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="OJO AI" />
+	<meta name="author" content="Telugo AI" />
 
-	<meta name="publisher" content="OJO AI" />
+	<meta name="publisher" content="Telugo AI" />
 
-	<link rel="canonical" href="https://www.ojo.io/blog/connected-ecosystem" />
+	<link rel="canonical" href="https://www.telugo.ai/blog/connected-ecosystem" />
 
 	<meta
 		property="og:title"
-		content="The Connected Ecosystem: Why Unified Platforms Will Define the Next Era of Business | OJO Blog"
+		content="The Connected Ecosystem: Why Unified Platforms Will Define the Next Era of Business | Telugo Blog"
 	/>
 
 	<meta
@@ -29,17 +29,17 @@
 		content="Discover how unified platforms eliminate silos, improve decision-making, and create a connected ecosystem for modern businesses."
 	/>
 
-	<meta property="og:url" content="https://www.ojo.io/blog/connected-ecosystem" />
+	<meta property="og:url" content="https://www.telugo.ai/blog/connected-ecosystem" />
 
 	<meta property="og:type" content="article" />
 
-	<meta property="og:site_name" content="OJO AI" />
+	<meta property="og:site_name" content="Telugo AI" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 
 	<meta
 		name="twitter:title"
-		content="The Connected Ecosystem: Why Unified Platforms Will Define the Next Era of Business | OJO Blog"
+		content="The Connected Ecosystem: Why Unified Platforms Will Define the Next Era of Business | Telugo Blog"
 	/>
 
 	<meta
@@ -52,7 +52,7 @@
 	<div class="container">
 		<div class="hero-content" style="max-width:720px">
 			<a href="/blog" class="label reveal" style="text-decoration:none">&larr; Back to Blog</a>
-			<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--r);margin:20px 0 12px" class="reveal">Operations</div>
+			<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--tq);margin:20px 0 12px" class="reveal">Operations</div>
 			<h1 class="d2 reveal">The Connected Ecosystem: Why Unified Platforms Will Define the Next Era of Business</h1>
 			<div class="body-s reveal" style="margin-top:16px">8 min read &middot; February 2026</div>
 		</div>
@@ -82,7 +82,7 @@
 
 			<h2>What a Connected Ecosystem Actually Looks Like</h2>
 
-			<p>A connected ecosystem isn't about integrating your existing tools with APIs and middleware. That's duct tape. A truly connected system is one where Sales, Projects, HR, and Finance share the same data layer from day one.</p>
+			<p>A connected ecosystem isn't about integrating your existing tools with APIs and middleware. That's duct tape. A truly connected system is one where Sales, Projects, Manufacturing, HR and Finance share the same data layer from day one.</p>
 
 			<p>When a deal closes, the project is created automatically with the right scope, budget, and team allocation. When an employee logs hours, those hours flow into both project tracking and payroll. When an invoice is raised, it's tied to the project, the team, and the P&L, without anyone copying numbers between tabs.</p>
 

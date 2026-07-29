@@ -34,7 +34,7 @@
 </script>
 
 <svelte:head>
-	<meta name="description" content="OJO unifies Sales, Projects, HR, and Finance into one AI-native operating system. Built for SMBs with 50-500 employees. Start free.">
+	<meta name="description" content="Telugo unifies Sales, Projects, Manufacturing, HR and Finance into one AI-native operating system. Built for SMBs with 50-500 employees.">
 </svelte:head>
 
 <!-- NAV -->
@@ -57,7 +57,7 @@
 		<button class="nav-hamburger" onclick={() => mobileMenuOpen = !mobileMenuOpen}>
 			{mobileMenuOpen ? '✕' : '☰'}
 		</button>
-		<a class="btn-ghost" href="https://app.ojo.io" target="_blank" rel="noopener noreferrer">Log in</a>
+		<a class="btn-ghost" href="https://app.telugo.ai" target="_blank" rel="noopener noreferrer">Log in</a>
 		<a class="btn-primary" href="/contact">Talk to Sales</a>
 	</div>
 </nav>
@@ -70,7 +70,7 @@
 		<a class:on={page.url.pathname === '/pricing'} href="/pricing" onclick={() => mobileMenuOpen = false}>Pricing</a>
 		<a class:on={page.url.pathname === '/company'} href="/company" onclick={() => mobileMenuOpen = false}>Company</a>
 		<a class:on={page.url.pathname === '/contact'} href="/contact" onclick={() => mobileMenuOpen = false}>Contact</a>
-		<a href="https://app.ojo.io" target="_blank" rel="noopener noreferrer" onclick={() => mobileMenuOpen = false}>Log in</a>
+		<a href="https://app.telugo.ai" target="_blank" rel="noopener noreferrer" onclick={() => mobileMenuOpen = false}>Log in</a>
 	</div>
 {/if}
 
@@ -83,22 +83,24 @@
 			<a class="logo" href="/" style="display:inline-flex;margin-bottom:4px">
 				<Logo height={28} />
 			</a>
-			<p class="ft-desc">The AI-native business operating system for SMBs. Built to think, learn, and act.</p>
+			<p class="ft-desc">The AI-native business operating system for SMBs. From first lead to last shipment, in one system.</p>
 		</div>
 		<div class="ft-col">
 			<div class="ft-col-t">Product</div>
 			<a href="/product">Overview</a>
 			<a href="/product">Sales & CRM</a>
 			<a href="/product">Smart Projects</a>
+			<a href="/product">Manufacturing</a>
 			<a href="/product">HR & People</a>
 			<a href="/product">Finance</a>
-			<a href="/product">OJO AI</a>
+			<a href="/product">Telugo AI</a>
 		</div>
 		<div class="ft-col">
 			<div class="ft-col-t">Solutions</div>
 			<a href="/solutions">IT Services</a>
 			<a href="/solutions">Consulting</a>
 			<a href="/solutions">Legal Firms</a>
+			<a href="/solutions">Manufacturing</a>
 			<a href="/solutions">Engineering</a>
 		</div>
 		<div class="ft-col">
@@ -117,7 +119,7 @@
 		</div>
 	</div>
 	<div class="ft-btm">
-		<div class="ft-cp">&copy; 2026 OJO AI, a product of Ojo AI Pvt Ltd. All rights reserved.</div>
+		<div class="ft-cp">&copy; 2026 Telugo AI, a product of Telugo AI Pvt Ltd. All rights reserved.</div>
 		<div class="ft-lg">
 			<a href="/contact">Contact</a>
 		</div>

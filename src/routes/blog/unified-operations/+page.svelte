@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Unified Operations: The Key to Scaling Business | OJO Blog</title>
+	<title>Unified Operations: The Key to Scaling Business | Telugo Blog</title>
 
 	<meta
 		name="description"
@@ -8,20 +8,20 @@
 
 	<meta
 		name="keywords"
-		content="unified operations, business operations management, operational efficiency, business growth, workflow automation, integrated business software, business operating system, SMB operations, connected business systems, operational excellence, digital transformation, business productivity, OJO AI"
+		content="unified operations, business operations management, operational efficiency, business growth, workflow automation, integrated business software, business operating system, SMB operations, connected business systems, operational excellence, digital transformation, business productivity, Telugo AI"
 	/>
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="OJO AI" />
+	<meta name="author" content="Telugo AI" />
 
-	<meta name="publisher" content="OJO AI" />
+	<meta name="publisher" content="Telugo AI" />
 
-	<link rel="canonical" href="https://www.ojo.io/blog/unified-operations" />
+	<link rel="canonical" href="https://www.telugo.ai/blog/unified-operations" />
 
 	<meta
 		property="og:title"
-		content="Unified Operations: The Quiet Advantage That Separates Growing Companies from Struggling Ones | OJO Blog"
+		content="Unified Operations: The Quiet Advantage That Separates Growing Companies from Struggling Ones | Telugo Blog"
 	/>
 
 	<meta
@@ -29,17 +29,17 @@
 		content="Learn how unified operations eliminate information silos, improve visibility, and help businesses scale more effectively."
 	/>
 
-	<meta property="og:url" content="https://www.ojo.io/blog/unified-operations" />
+	<meta property="og:url" content="https://www.telugo.ai/blog/unified-operations" />
 
 	<meta property="og:type" content="article" />
 
-	<meta property="og:site_name" content="OJO AI" />
+	<meta property="og:site_name" content="Telugo AI" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 
 	<meta
 		name="twitter:title"
-		content="Unified Operations: The Quiet Advantage That Separates Growing Companies from Struggling Ones | OJO Blog"
+		content="Unified Operations: The Quiet Advantage That Separates Growing Companies from Struggling Ones | Telugo Blog"
 	/>
 
 	<meta
@@ -52,7 +52,7 @@
 	<div class="container">
 		<div class="hero-content" style="max-width:720px">
 			<a href="/blog" class="label reveal" style="text-decoration:none">&larr; Back to Blog</a>
-			<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--r);margin:20px 0 12px" class="reveal">Strategy</div>
+			<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--tq);margin:20px 0 12px" class="reveal">Strategy</div>
 			<h1 class="d2 reveal">Unified Operations: The Quiet Advantage That Separates Growing Companies from Struggling Ones</h1>
 			<div class="body-s reveal" style="margin-top:16px">9 min read &middot; February 2026</div>
 		</div>
