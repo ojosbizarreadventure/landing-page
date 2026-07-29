@@ -6,8 +6,8 @@
 			id: 'manufacturing',
 			tab: 'Manufacturing',
 			name: 'Manufacturing & Fabrication',
-			image: '/mfg-orders.jpg',
-			alt: 'Telugo sales order and production board',
+			image: '/sol-manufacturing.svg',
+			alt: 'An order travelling through four production stations, turning from turquoise to amber as it is made',
 			desc: 'Sales orders, bill of materials, work orders and QC in one board. Telugo checks material before you promise a date, flags a shortage days before the line stops, and turns a finished batch into an invoice without re-entry.',
 			stats: [
 				{ val: '78', label: 'Factory Score, live' },
