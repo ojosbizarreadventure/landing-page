@@ -3,6 +3,12 @@
 	import Logo from '$lib/components/Logo.svelte';
 	import { page } from '$app/state';
 	import { afterNavigate } from '$app/navigation';
+	import { dev } from '$app/environment';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
+
+	// Vercel Web Analytics — page views only, no cookies, no cross-site tracking.
+	// In dev it logs to the console instead of sending anything.
+	injectAnalytics({ mode: dev ? 'development' : 'production' });
 
 	let { children } = $props();
 	let theme = $state('dark');
