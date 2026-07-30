@@ -241,7 +241,7 @@
 			<div class="demo-bar">
 				<div class="demo-dot"></div><div class="demo-dot"></div><div class="demo-dot"></div>
 				<div style="margin-left:12px;display:flex;align-items:center;gap:6px">
-					<Logo height={16} wordmark={false} />
+					<Logo height={16} />
 					<div class="demo-url" style="margin-left:0">erp.ojo.io</div>
 				</div>
 			</div>
@@ -369,7 +369,7 @@
 		<div class="grid-brain reveal">
 			<div style="display:flex;align-items:center;gap:24px;padding:36px 32px;position:relative;z-index:1">
 				<div style="flex-shrink:0;width:56px;height:56px;border-radius:14px;background:linear-gradient(145deg,var(--tq2),var(--tq-brand));display:flex;align-items:center;justify-content:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),var(--lift-2)">
-					<Logo height={28} white wordmark={false} />
+					<Logo height={28} white />
 				</div>
 				<div style="flex:1">
 					<div style="font-size:13px;font-weight:900;letter-spacing:-.02em;color:var(--t1);margin-bottom:4px">OJO Brain &mdash; the intelligence every module shares</div>

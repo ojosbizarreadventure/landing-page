@@ -7,9 +7,12 @@
 	}
 
 	const prices = {
-		plus: { m: '₹650', a: '₹585' },
-		ultra: { m: '₹2,700', a: '₹2,430' }
+		plus: { m: '₹1,300', a: '₹850' },
+		ultra: { m: '₹2,500', a: '₹1,625' }
 	};
+
+	// Flat per-seat price — every seat costs the same. Plus starts at 3 seats.
+	const minSeats = { plus: 3, ultra: 1 };
 
 	type Cell = string | boolean;
 	type Row = { label: string; values: [Cell, Cell, Cell] };
@@ -23,9 +26,9 @@
 			title: 'Seats & teams',
 			icon: '👥',
 			rows: [
-				{ label: 'Users included', values: ['1', '1', '25+'] },
-				{ label: 'Max users (cap)', values: ['NA', 'NA', 'Unlimited'] },
-				{ label: 'Add additional users', values: ['20% off / 30% annual', '20% off / 30% annual', 'Negotiated'] },
+				{ label: 'Minimum seats', values: ['3', '1', '25+'] },
+				{ label: 'Max users (cap)', values: ['Unlimited', 'Unlimited', 'Unlimited'] },
+				{ label: 'Add additional users', values: ['Flat per-seat rate', 'Flat per-seat rate', 'Negotiated'] },
 				{ label: 'Custom roles & permissions', values: ['Basic', 'Advanced', 'Enterprise'] },
 				{ label: 'Members & Departments', values: [T, T, T] }
 			]
@@ -210,7 +213,7 @@
 		<div class="price-toggle reveal">
 			<div class="price-toggle-inner">
 				<button class="ptog" class:on={period === 'm'} onclick={() => period = 'm'}>Monthly</button>
-				<button class="ptog" class:on={period === 'a'} onclick={() => period = 'a'}>Annual (Save 10%)</button>
+				<button class="ptog" class:on={period === 'a'} onclick={() => period = 'a'}>Annual (Save 35%)</button>
 			</div>
 		</div>
 	</div>
@@ -224,7 +227,8 @@
 				<div class="pr-name">Plus</div>
 				<div class="pr-desc">For small teams getting started</div>
 				<div class="pr-amount">{prices.plus[period]}<span>/user/mo</span></div>
-				<div class="pr-period">{period === 'a' ? 'Billed annually · save 10%' : 'Billed monthly'}</div>
+				<div class="pr-period">{period === 'a' ? 'Billed annually · save 35%' : 'Billed monthly'}</div>
+				<div class="pr-min">Minimum {minSeats.plus} seats</div>
 				<div class="pr-btn-group">
 					<a class="pr-btn pr-btn-fill" href="/checkout?plan=plus&period={period}">Buy Now</a>
 					<a class="pr-btn pr-btn-line" href="/checkout?plan=plus&period={period}&trial=true">Start Free Trial</a>
@@ -243,7 +247,8 @@
 				<div class="pr-name">Ultra</div>
 				<div class="pr-desc">For growing businesses scaling fast</div>
 				<div class="pr-amount">{prices.ultra[period]}<span>/user/mo</span></div>
-				<div class="pr-period">{period === 'a' ? 'Billed annually · save 10%' : 'Billed monthly'}</div>
+				<div class="pr-period">{period === 'a' ? 'Billed annually · save 35%' : 'Billed monthly'}</div>
+				<div class="pr-min">No seat minimum</div>
 				<div class="pr-btn-group">
 					<a class="pr-btn pr-btn-fill" href="/checkout?plan=ultra&period={period}">Buy Now</a>
 					<a class="pr-btn pr-btn-line" href="/checkout?plan=ultra&period={period}&trial=true">Start Free Trial</a>
@@ -263,6 +268,7 @@
 				<div class="pr-desc">For organizations with custom needs</div>
 				<div class="pr-amount">Custom</div>
 				<div class="pr-period">Volume pricing · 25+ users</div>
+				<div class="pr-min"></div>
 				<div class="pr-btn-group">
 					<a class="pr-btn pr-btn-fill" href="/contact">Contact Sales</a>
 					<a class="pr-btn pr-btn-line" href="/contact">Talk to Sales</a>
@@ -278,7 +284,7 @@
 			</div>
 		</div>
 		<p class="body-s reveal" style="text-align:center;margin-top:20px">
-			💡 Per-seat pricing — User 1 pays full price; users 2+ get 20% off monthly or 30% off annual. Annual billing adds another 10% off.
+			💡 Flat per-seat pricing — every seat costs the same, no tiers to work out. Plus starts at {minSeats.plus} seats. Paying annually saves you 35%.
 		</p>
 	</div>
 </section>
@@ -356,7 +362,7 @@
 			</div>
 			<div class="faq-i" class:open={openFaq === 1}>
 				<div class="faq-q" onclick={() => toggleFaq(1)}>How does per-seat pricing work?<span>+</span></div>
-				<div class="faq-a">Every user counts. User 1 pays full price. Users 2 onwards get 20% off (monthly) or 30% off (annual). Annual billing adds another 10% off the total.</div>
+				<div class="faq-a">Every seat costs the same — there are no volume tiers to work out. Plus is ₹1,300 per seat per month, or ₹850 if you pay for the year up front, and starts at 3 seats. Ultra is ₹2,500 per seat per month, or ₹1,625 annually, with no minimum.</div>
 			</div>
 			<div class="faq-i" class:open={openFaq === 2}>
 				<div class="faq-q" onclick={() => toggleFaq(2)}>Can I switch plans later?<span>+</span></div>

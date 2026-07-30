@@ -47,7 +47,7 @@
 <nav>
 	<div class="nav-left">
 		<a class="logo" href="/">
-			<Logo height={36} />
+			<Logo height={40} />
 		</a>
 		<div class="nav-links">
 			<a class="nav-link" class:on={page.url.pathname === '/product'} href="/product">Product</a>
@@ -87,7 +87,7 @@
 	<div class="ft-grid">
 		<div>
 			<a class="logo" href="/" style="display:inline-flex;margin-bottom:4px">
-				<Logo height={34} />
+				<Logo height={36} />
 			</a>
 			<p class="ft-desc">The AI-native business operating system for SMBs. From first lead to last shipment, in one system.</p>
 		</div>
