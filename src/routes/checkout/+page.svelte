@@ -13,11 +13,11 @@
 		},
 		starter: {
 			name: 'Starter', m: 2999, a: 2399, mLabel: '₹2,999', aLabel: '₹2,399', suffix: '/mo',
-			features: ['Up to 10 users', '5 active projects', 'Full CRM + Projects', 'Telugo AI \u00b7 500 credits/mo', 'Client portal', 'Email support']
+			features: ['Up to 10 users', '5 active projects', 'Full CRM + Projects', 'OJO AI \u00b7 500 credits/mo', 'Client portal', 'Email support']
 		},
 		growth: {
 			name: 'Growth', m: 9999, a: 7999, mLabel: '₹9,999', aLabel: '₹7,999', suffix: '/mo',
-			features: ['Up to 30 users', 'Unlimited projects', 'All 5 modules included', 'Telugo AI \u00b7 2,000 credits/mo', 'Advanced analytics', 'Priority support', 'Third-party integrations']
+			features: ['Up to 30 users', 'Unlimited projects', 'All 5 modules included', 'OJO AI \u00b7 2,000 credits/mo', 'Advanced analytics', 'Priority support', 'Third-party integrations']
 		}
 	};
 
@@ -93,21 +93,21 @@
 </script>
 
 <svelte:head>
-	<title>{isTrial ? 'Start Free Trial' : 'Checkout'} | Telugo</title>
+	<title>{isTrial ? 'Start Free Trial' : 'Checkout'} | OJO</title>
 
 	<meta
 		name="description"
-		content="Complete your Telugo subscription purchase or start a free trial. Access AI-powered CRM, Projects, Manufacturing, HR, Finance and business automation tools."
+		content="Complete your OJO subscription purchase or start a free trial. Access AI-powered CRM, Projects, Manufacturing, HR, Finance and business automation tools."
 	/>
 
 	<meta
 		name="keywords"
-		content="Telugo checkout, Telugo pricing, Telugo subscription, AI business software, business operating system, CRM software, project management software, HR software, finance management software, business automation platform"
+		content="OJO checkout, OJO pricing, OJO subscription, AI business software, business operating system, CRM software, project management software, HR software, finance management software, business automation platform"
 	/>
 
 	<meta name="robots" content="noindex, nofollow" />
 
-	<link rel="canonical" href="https://www.telugo.ai/checkout" />
+	<link rel="canonical" href="https://www.ojo.io/checkout" />
 </svelte:head>
 
 {#if isTrial}
@@ -165,7 +165,7 @@
 					</div>
 				</div>
 
-				<a class="checkout-btn checkout-btn-primary" href="https://app.telugo.ai/signup" style="display:block;text-align:center">
+				<a class="checkout-btn checkout-btn-primary" href="https://erp.staging.ojo.io/signup" style="display:block;text-align:center">
 					Activate Free Trial
 				</a>
 			</div>
@@ -322,7 +322,7 @@
 			<!-- Primary CTA — always visible -->
 			<a
 				class="checkout-btn checkout-btn-primary"
-				href={otpVerified ? `https://payments.telugo.ai?plan=${planKey}&period=${periodKey}` : undefined}
+				href={otpVerified ? `https://erp.staging.ojo.io/pay?plan=${planKey}&period=${periodKey}` : undefined}
 				style="display:block;text-align:center;margin-top:24px;font-size:16px;padding:16px 24px;{otpVerified ? '' : 'opacity:.45;pointer-events:none'}"
 				aria-disabled={!otpVerified}
 			>

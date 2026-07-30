@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>AI Makes Teams More Creative, Not Replaceable | Telugo</title>
+	<title>AI Makes Teams More Creative, Not Replaceable | OJO</title>
 
 	<meta
 		name="description"
@@ -8,20 +8,20 @@
 
 	<meta
 		name="keywords"
-		content="AI productivity, AI in business, AI and creativity, AI workforce, AI automation, future of work, AI-augmented teams, business productivity, workplace automation, creative teams, AI-powered workforce, AI collaboration, employee productivity, business growth, AI for SMBs, Telugo AI"
+		content="AI productivity, AI in business, AI and creativity, AI workforce, AI automation, future of work, AI-augmented teams, business productivity, workplace automation, creative teams, AI-powered workforce, AI collaboration, employee productivity, business growth, AI for SMBs, OJO AI"
 	/>
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo AI" />
+	<meta name="author" content="OJO AI" />
 
-	<meta name="publisher" content="Telugo AI" />
+	<meta name="publisher" content="OJO AI" />
 
-	<link rel="canonical" href="https://www.telugo.ai/blog/ai-productivity" />
+	<link rel="canonical" href="https://www.ojo.io/blog/ai-productivity" />
 
 	<meta
 		property="og:title"
-		content="AI Won't Replace Your Team. It Will Make Them Unreasonably Creative. | Telugo Blog"
+		content="AI Won't Replace Your Team. It Will Make Them Unreasonably Creative. | OJO Blog"
 	/>
 
 	<meta
@@ -29,17 +29,17 @@
 		content="Learn how AI helps teams focus on creative and strategic work by reducing repetitive tasks and improving productivity."
 	/>
 
-	<meta property="og:url" content="https://www.telugo.ai/blog/ai-productivity" />
+	<meta property="og:url" content="https://www.ojo.io/blog/ai-productivity" />
 
 	<meta property="og:type" content="article" />
 
-	<meta property="og:site_name" content="Telugo AI" />
+	<meta property="og:site_name" content="OJO AI" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 
 	<meta
 		name="twitter:title"
-		content="AI Won't Replace Your Team. It Will Make Them Unreasonably Creative. | Telugo Blog"
+		content="AI Won't Replace Your Team. It Will Make Them Unreasonably Creative. | OJO Blog"
 	/>
 
 	<meta

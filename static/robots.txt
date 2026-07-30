@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.telugo.ai/sitemap.xml
+Sitemap: https://www.ojo.io/sitemap.xml

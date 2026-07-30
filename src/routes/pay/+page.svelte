@@ -24,63 +24,63 @@
 	function processPayment() {
 		paying = true;
 		setTimeout(() => {
-			window.location.href = 'https://app.telugo.ai/pay?plan=' + planKey + '&period=' + periodKey;
+			window.location.href = 'https://erp.staging.ojo.io/pay?plan=' + planKey + '&period=' + periodKey;
 		}, 1500);
 	}
 </script>
 
 <svelte:head>
-	<title>Secure Online Payments for SMBs | Telugo Pay</title>
+	<title>Secure Online Payments for SMBs | OJO Pay</title>
 
 	<meta
 		name="description"
-		content="Manage secure online payments, invoicing, and financial transactions with Telugo Pay. Built for SMBs to streamline billing and payment operations."
+		content="Manage secure online payments, invoicing, and financial transactions with OJO Pay. Built for SMBs to streamline billing and payment operations."
 	/>
 
 	<meta
 		name="keywords"
-		content="online payment platform, SMB payment software, invoice payment system, secure business payments, AI finance software, payment management platform, Telugo Pay"
+		content="online payment platform, SMB payment software, invoice payment system, secure business payments, AI finance software, payment management platform, OJO Pay"
 	/>
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo" />
-	<meta name="publisher" content="Telugo" />
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
 
-	<link rel="canonical" href="https://www.telugo.ai/pay" />
+	<link rel="canonical" href="https://www.ojo.io/pay" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.telugo.ai/pay" />
-	<meta property="og:title" content="Secure Online Payments for SMBs | Telugo Pay" />
+	<meta property="og:url" content="https://www.ojo.io/pay" />
+	<meta property="og:title" content="Secure Online Payments for SMBs | OJO Pay" />
 	<meta
 		property="og:description"
-		content="Simplify invoicing, payments, and financial operations with Telugo Pay for growing SMBs."
+		content="Simplify invoicing, payments, and financial operations with OJO Pay for growing SMBs."
 	/>
-	<meta property="og:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:url" content="https://www.telugo.ai/pay" />
-	<meta name="twitter:title" content="Secure Online Payments for SMBs | Telugo Pay" />
+	<meta name="twitter:url" content="https://www.ojo.io/pay" />
+	<meta name="twitter:title" content="Secure Online Payments for SMBs | OJO Pay" />
 	<meta
 		name="twitter:description"
 		content="AI-powered payment and invoicing platform designed for SMB financial operations and secure transactions."
 	/>
-	<meta name="twitter:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Schema Markup -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "FinancialProduct",
-			"name": "Telugo Pay",
-			"url": "https://www.telugo.ai/pay",
-			"description": "Telugo Pay helps SMBs manage secure online payments, invoicing, and financial workflows.",
+			"name": "OJO Pay",
+			"url": "https://www.ojo.io/pay",
+			"description": "OJO Pay helps SMBs manage secure online payments, invoicing, and financial workflows.",
 			"provider": {
 				"@type": "Organization",
-				"name": "Telugo",
-				"url": "https://www.telugo.ai"
+				"name": "OJO",
+				"url": "https://www.ojo.io"
 			}
 		}
 	</script>

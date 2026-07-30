@@ -1,24 +1,24 @@
 <svelte:head>
-	<title>Terms & Conditions | Telugo AI Business Operating System</title>
+	<title>Terms & Conditions | OJO AI Business Operating System</title>
 
 	<meta
 		name="description"
-		content="Read Telugo's Terms & Conditions covering platform usage, subscriptions, billing, user responsibilities, and legal agreements."
+		content="Read OJO's Terms & Conditions covering platform usage, subscriptions, billing, user responsibilities, and legal agreements."
 	/>
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo" />
+	<meta name="author" content="OJO" />
 
-	<link rel="canonical" href="https://www.telugo.ai/terms" />
+	<link rel="canonical" href="https://www.ojo.io/terms" />
 
 	<!-- Open Graph -->
-	<meta property="og:title" content="Terms & Conditions | Telugo" />
+	<meta property="og:title" content="Terms & Conditions | OJO" />
 	<meta
 		property="og:description"
-		content="Review Telugo's platform terms, subscription policies, and user agreements."
+		content="Review OJO's platform terms, subscription policies, and user agreements."
 	/>
-	<meta property="og:url" content="https://www.telugo.ai/terms" />
+	<meta property="og:url" content="https://www.ojo.io/terms" />
 	<meta property="og:type" content="website" />
 </svelte:head>
 
@@ -35,20 +35,20 @@
 <section class="section" style="padding-top:0">
 	<div class="container">
 		<div class="legal reveal">
-			<p>These Terms and Conditions ("Terms") govern your access to and use of the Telugo platform, website, and services provided by Telugo AI Pvt Ltd ("Telugo", "we", "us", or "our"). Please read these Terms carefully before using our services.</p>
+			<p>These Terms and Conditions ("Terms") govern your access to and use of the OJO platform, website, and services provided by Ojo AI Pvt Ltd ("OJO", "we", "us", or "our"). Please read these Terms carefully before using our services.</p>
 
 			<h2>1. Acceptance of Terms</h2>
-			<p>By creating an account, accessing, or using the Telugo platform, you agree to be bound by these Terms and our <a href="/privacy">Privacy Policy</a>. If you are using Telugo on behalf of an organization, you represent that you have the authority to bind that organization to these Terms.</p>
+			<p>By creating an account, accessing, or using the OJO platform, you agree to be bound by these Terms and our <a href="/privacy">Privacy Policy</a>. If you are using OJO on behalf of an organization, you represent that you have the authority to bind that organization to these Terms.</p>
 			<p>If you do not agree to these Terms, you must not use our services.</p>
 
 			<h2>2. Service Description</h2>
-			<p>Telugo is an AI-native business operating system designed for small and medium businesses (SMBs). The platform provides integrated modules for:</p>
+			<p>OJO is an AI-native business operating system designed for small and medium businesses (SMBs). The platform provides integrated modules for:</p>
 			<ul>
 				<li><strong>Sales & CRM:</strong> Lead management, pipeline tracking, proposal generation, and client portal.</li>
 				<li><strong>Smart Projects:</strong> Project planning, task management, milestone tracking, and team performance monitoring.</li>
 				<li><strong>HR & People:</strong> Employee management, hiring, payroll processing, attendance tracking, and performance reviews.</li>
 				<li><strong>Finance & Accounts:</strong> Invoicing, expense tracking, bank reconciliation, and financial reporting.</li>
-				<li><strong>Telugo Brain (AI Engine):</strong> Cross-module intelligence providing insights, recommendations, risk alerts, and automated workflows.</li>
+				<li><strong>OJO Brain (AI Engine):</strong> Cross-module intelligence providing insights, recommendations, risk alerts, and automated workflows.</li>
 			</ul>
 
 			<h2>3. Account Registration & Security</h2>
@@ -61,17 +61,17 @@
 			</ul>
 
 			<h2>4. Data Ownership</h2>
-			<p><strong>Your data belongs to you.</strong> Telugo does not claim ownership over any business data, content, or information you upload, create, or store on the platform ("Your Data").</p>
+			<p><strong>Your data belongs to you.</strong> OJO does not claim ownership over any business data, content, or information you upload, create, or store on the platform ("Your Data").</p>
 			<ul>
 				<li>You retain all rights, title, and interest in Your Data.</li>
-				<li>You grant Telugo a limited, non-exclusive license to process Your Data solely for the purpose of providing and improving the services, including powering AI features within your workspace.</li>
+				<li>You grant OJO a limited, non-exclusive license to process Your Data solely for the purpose of providing and improving the services, including powering AI features within your workspace.</li>
 				<li>Your Data is <strong>never</strong> used to train AI models that serve other customers. AI processing is scoped to your workspace only.</li>
 				<li>You may export Your Data at any time through the platform's export functionality or by contacting support.</li>
 				<li>Upon account deletion, Your Data will be permanently removed within the timeline described in our <a href="/privacy">Privacy Policy</a>.</li>
 			</ul>
 
 			<h2>5. Acceptable Use</h2>
-			<p>You agree not to use Telugo to:</p>
+			<p>You agree not to use OJO to:</p>
 			<ul>
 				<li>Violate any applicable law, regulation, or third-party rights.</li>
 				<li>Upload or transmit malicious code, viruses, or harmful content.</li>
@@ -79,23 +79,23 @@
 				<li>Use the platform for any illegal, fraudulent, or deceptive purpose.</li>
 				<li>Scrape, crawl, or use automated means to extract data from the platform beyond authorized API usage.</li>
 				<li>Reverse engineer, decompile, or disassemble any part of the platform.</li>
-				<li>Resell, sublicense, or redistribute access to Telugo without prior written consent.</li>
+				<li>Resell, sublicense, or redistribute access to OJO without prior written consent.</li>
 				<li>Store or process data that you do not have the lawful right to collect or use.</li>
 			</ul>
 			<p>We reserve the right to suspend or terminate accounts that violate these guidelines.</p>
 
 			<h2>6. AI Features & Limitations</h2>
-			<p>Telugo includes AI-powered features ("Telugo Brain") that provide insights, predictions, recommendations, and automated actions based on your business data.</p>
+			<p>OJO includes AI-powered features ("OJO Brain") that provide insights, predictions, recommendations, and automated actions based on your business data.</p>
 			<ul>
-				<li><strong>Advisory only:</strong> AI-generated outputs are informational and advisory. They should not be treated as professional financial, legal, or HR advice. You are responsible for all business decisions made using Telugo.</li>
+				<li><strong>Advisory only:</strong> AI-generated outputs are informational and advisory. They should not be treated as professional financial, legal, or HR advice. You are responsible for all business decisions made using OJO.</li>
 				<li><strong>Accuracy:</strong> While we strive for accuracy, AI outputs may contain errors or inaccuracies. We recommend verifying critical decisions independently.</li>
 				<li><strong>Data scope:</strong> AI features process data within your workspace only. The quality of AI outputs depends on the quality and completeness of the data you provide.</li>
-				<li><strong>No autonomous decisions:</strong> Telugo does not make binding decisions on your behalf (such as sending payments or terminating employees) without your explicit confirmation.</li>
+				<li><strong>No autonomous decisions:</strong> OJO does not make binding decisions on your behalf (such as sending payments or terminating employees) without your explicit confirmation.</li>
 			</ul>
 
 			<h2>7. Payment & Billing</h2>
 			<ul>
-				<li><strong>Free tier:</strong> Telugo offers a free plan with limited features. No payment is required for the free tier.</li>
+				<li><strong>Free tier:</strong> OJO offers a free plan with limited features. No payment is required for the free tier.</li>
 				<li><strong>Paid plans:</strong> Paid subscriptions are billed monthly or annually as selected at the time of purchase. Prices are listed on our <a href="/pricing">Pricing page</a>.</li>
 				<li><strong>Auto-renewal:</strong> Paid subscriptions renew automatically. You may cancel before the renewal date to avoid charges.</li>
 				<li><strong>Refunds:</strong> Annual plans are eligible for a pro-rata refund within 7 days of purchase. Monthly plans are non-refundable for the current billing period.</li>
@@ -106,10 +106,10 @@
 
 			<h2>8. Intellectual Property</h2>
 			<ul>
-				<li>The Telugo platform, including its design, code, features, logos, and documentation, is owned by Telugo AI Pvt Ltd and protected by intellectual property laws.</li>
+				<li>The OJO platform, including its design, code, features, logos, and documentation, is owned by Ojo AI Pvt Ltd and protected by intellectual property laws.</li>
 				<li>You may not copy, modify, distribute, or create derivative works of any part of the platform without our written consent.</li>
-				<li>The "Telugo" name, logo, and related trademarks are the property of Telugo AI Pvt Ltd. You may not use them without our prior written permission.</li>
-				<li>Feedback, suggestions, or feature requests you submit may be used by Telugo to improve the platform without obligation to you.</li>
+				<li>The "OJO" name, logo, and related trademarks are the property of Ojo AI Pvt Ltd. You may not use them without our prior written permission.</li>
+				<li>Feedback, suggestions, or feature requests you submit may be used by OJO to improve the platform without obligation to you.</li>
 			</ul>
 
 			<h2>9. Service Availability</h2>
@@ -123,14 +123,14 @@
 			<h2>10. Limitation of Liability</h2>
 			<p>To the maximum extent permitted by applicable law:</p>
 			<ul>
-				<li>Telugo is provided on an "as is" and "as available" basis without warranties of any kind, either express or implied.</li>
+				<li>OJO is provided on an "as is" and "as available" basis without warranties of any kind, either express or implied.</li>
 				<li>We do not warrant that the platform will meet all your requirements or that AI outputs will be accurate, complete, or reliable.</li>
-				<li>In no event shall Telugo AI Pvt Ltd be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or business opportunities.</li>
-				<li>Our total liability for any claim arising from or related to these Terms shall not exceed the amount you paid to Telugo in the 12 months preceding the claim.</li>
+				<li>In no event shall Ojo AI Pvt Ltd be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or business opportunities.</li>
+				<li>Our total liability for any claim arising from or related to these Terms shall not exceed the amount you paid to OJO in the 12 months preceding the claim.</li>
 			</ul>
 
 			<h2>11. Indemnification</h2>
-			<p>You agree to indemnify and hold harmless Telugo AI Pvt Ltd, its officers, employees, and agents from any claims, damages, losses, or expenses (including legal fees) arising from:</p>
+			<p>You agree to indemnify and hold harmless Ojo AI Pvt Ltd, its officers, employees, and agents from any claims, damages, losses, or expenses (including legal fees) arising from:</p>
 			<ul>
 				<li>Your use or misuse of the platform.</li>
 				<li>Your violation of these Terms.</li>
@@ -165,7 +165,7 @@
 			<h2>15. Contact</h2>
 			<p>If you have questions about these Terms, please contact us:</p>
 			<ul>
-				<li><strong>Email:</strong> <a href="mailto:contact@telugo.ai">contact@telugo.ai</a></li>
+				<li><strong>Email:</strong> <a href="mailto:contact@ojo.io">contact@ojo.io</a></li>
 				<li><strong>Phone:</strong> +91 88255 62185</li>
 				<li><strong>Address:</strong> 137, 7th Cross, 13th Main, HSR Layout, Sector 5, Bangalore, Karnataka, India - 560102</li>
 			</ul>

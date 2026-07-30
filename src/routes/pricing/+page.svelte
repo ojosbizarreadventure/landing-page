@@ -39,7 +39,7 @@
 				{ label: 'AI model', values: ['DeepSeek V3', 'GPT-5.4 (frontier)', 'GPT-5.4 + custom'] },
 				{ label: 'AI response speed', values: ['Standard', 'Fastest', 'Dedicated'] },
 				{ label: 'Extra credit pack', values: ['₹500 ≈ 7,500 credits', '₹500 ≈ 750 credits', 'Custom volume'] },
-				{ label: 'AI Chat (Ask Telugo)', values: [T, T, T] },
+				{ label: 'AI Chat (Ask OJO)', values: [T, T, T] },
 				{ label: 'AI-led recommendations & insights', values: [T, T, T] }
 			]
 		},
@@ -135,11 +135,11 @@
 </script>
 
 <svelte:head>
-	<title>Affordable AI Business Software Pricing for SMBs | Telugo</title>
+	<title>Affordable AI Business Software Pricing for SMBs | OJO</title>
 
 	<meta
 		name="description"
-		content="Explore Telugo pricing plans for AI-powered CRM, Projects, Manufacturing, HR, Payroll and Finance management. Flexible business software pricing built for growing SMBs."
+		content="Explore OJO pricing plans for AI-powered CRM, Projects, Manufacturing, HR, Payroll and Finance management. Flexible business software pricing built for growing SMBs."
 	/>
 
 	<meta
@@ -149,47 +149,47 @@
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo" />
-	<meta name="publisher" content="Telugo" />
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
 
-	<link rel="canonical" href="https://www.telugo.ai/pricing" />
+	<link rel="canonical" href="https://www.ojo.io/pricing" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.telugo.ai/pricing" />
-	<meta property="og:title" content="Affordable AI Business Software Pricing for SMBs | Telugo" />
+	<meta property="og:url" content="https://www.ojo.io/pricing" />
+	<meta property="og:title" content="Affordable AI Business Software Pricing for SMBs | OJO" />
 	<meta
 		property="og:description"
-		content="Compare Telugo pricing plans for AI-native CRM, Projects, Manufacturing, HR, Payroll and Finance software built for SMBs."
+		content="Compare OJO pricing plans for AI-native CRM, Projects, Manufacturing, HR, Payroll and Finance software built for SMBs."
 	/>
-	<meta property="og:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:url" content="https://www.telugo.ai/pricing" />
-	<meta name="twitter:title" content="Affordable AI Business Software Pricing for SMBs | Telugo" />
+	<meta name="twitter:url" content="https://www.ojo.io/pricing" />
+	<meta name="twitter:title" content="Affordable AI Business Software Pricing for SMBs | OJO" />
 	<meta
 		name="twitter:description"
 		content="Flexible pricing plans for SMBs looking to streamline operations with AI-powered business software."
 	/>
-	<meta name="twitter:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Schema Markup -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "WebPage",
-			"name": "Telugo Pricing",
-			"url": "https://www.telugo.ai/pricing",
-			"description": "Pricing plans for Telugo's AI-native business operating system for SMBs.",
+			"name": "OJO Pricing",
+			"url": "https://www.ojo.io/pricing",
+			"description": "Pricing plans for OJO's AI-native business operating system for SMBs.",
 			"publisher": {
 				"@type": "Organization",
-				"name": "Telugo",
-				"url": "https://www.telugo.ai"
+				"name": "OJO",
+				"url": "https://www.ojo.io"
 			},
 			"mainEntity": {
 				"@type": "SoftwareApplication",
-				"name": "Telugo",
+				"name": "OJO",
 				"applicationCategory": "BusinessApplication",
 				"operatingSystem": "Web",
 				"offers": {
@@ -340,7 +340,7 @@
 		<div class="cmp-notes reveal">
 			<div class="cmp-note"><strong>1 AI credit = 100 tokens.</strong> Plus uses DeepSeek V3 (cheaper, faster bulk). Ultra uses GPT-5.4 (frontier, best quality).</div>
 			<div class="cmp-note">Extra credit packs start at <strong>₹500</strong>. Amount of credits depends on plan's underlying AI model.</div>
-			<div class="cmp-note">All plans include <strong>every Telugo module</strong> — Contacts, Leads, Projects, Manufacturing, HR, Accounts, Vendors, Org Admin.</div>
+			<div class="cmp-note">All plans include <strong>every OJO module</strong> — Contacts, Leads, Projects, Manufacturing, HR, Accounts, Vendors, Org Admin.</div>
 			<div class="cmp-note"><strong>Enterprise:</strong> custom credits, dedicated infra, on-prem options, white-glove onboarding — talk to sales.</div>
 		</div>
 	</div>
@@ -352,7 +352,7 @@
 		<div class="faq-w">
 			<div class="faq-i" class:open={openFaq === 0}>
 				<div class="faq-q" onclick={() => toggleFaq(0)}>What are AI credits?<span>+</span></div>
-				<div class="faq-a">AI credits power Telugo's intelligent features: lead scoring, recommendations, insights, and Ask Telugo. 1 credit = 100 tokens. Each plan includes a monthly allocation; extra credit packs start at ₹500.</div>
+				<div class="faq-a">AI credits power OJO's intelligent features: lead scoring, recommendations, insights, and Ask OJO. 1 credit = 100 tokens. Each plan includes a monthly allocation; extra credit packs start at ₹500.</div>
 			</div>
 			<div class="faq-i" class:open={openFaq === 1}>
 				<div class="faq-q" onclick={() => toggleFaq(1)}>How does per-seat pricing work?<span>+</span></div>
@@ -498,7 +498,7 @@
 		border-left: 1px solid var(--bd);
 	}
 	.cmp-cell.cmp-pop-col { background: var(--r-g); }
-	.cmp-cell.cmp-pop-col:hover { background: rgba(252, 115, 38, .12); }
+	.cmp-cell.cmp-pop-col:hover { background: rgba(240, 75, 86, .12); }
 	.cmp-feat-label {
 		justify-content: flex-start;
 		text-align: left;

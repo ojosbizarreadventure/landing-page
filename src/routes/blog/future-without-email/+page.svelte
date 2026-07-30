@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Why the Future of Work Goes Beyond Email | Telugo Blog</title>
+	<title>Why the Future of Work Goes Beyond Email | OJO Blog</title>
 	<meta
 		name="description"
 		content="Discover why the future of work is moving beyond email toward interaction-first platforms that improve collaboration, decision-making, and business productivity."
@@ -7,20 +7,20 @@
 
 	<meta
 		name="keywords"
-		content="future of work, world after email, business communication, workplace collaboration, interaction-first platform, email alternatives, digital workplace, business productivity, workflow automation, contextual communication, AI collaboration, team communication, Telugo AI"
+		content="future of work, world after email, business communication, workplace collaboration, interaction-first platform, email alternatives, digital workplace, business productivity, workflow automation, contextual communication, AI collaboration, team communication, OJO AI"
 	/>
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo AI" />
+	<meta name="author" content="OJO AI" />
 
-	<meta name="publisher" content="Telugo AI" />
+	<meta name="publisher" content="OJO AI" />
 
-	<link rel="canonical" href="https://www.telugo.ai/blog/future-without-email" />
+	<link rel="canonical" href="https://www.ojo.io/blog/future-without-email" />
 
 	<meta
 		property="og:title"
-		content="The World After Email: Why the Future of Work Is Built on Interactions, Not Inboxes | Telugo Blog"
+		content="The World After Email: Why the Future of Work Is Built on Interactions, Not Inboxes | OJO Blog"
 	/>
 
 	<meta
@@ -28,17 +28,17 @@
 		content="Learn why modern businesses are replacing inboxes with contextual, interaction-first communication systems."
 	/>
 
-	<meta property="og:url" content="https://www.telugo.ai/blog/future-without-email" />
+	<meta property="og:url" content="https://www.ojo.io/blog/future-without-email" />
 
 	<meta property="og:type" content="article" />
 
-	<meta property="og:site_name" content="Telugo AI" />
+	<meta property="og:site_name" content="OJO AI" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 
 	<meta
 		name="twitter:title"
-		content="The World After Email: Why the Future of Work Is Built on Interactions, Not Inboxes | Telugo Blog"
+		content="The World After Email: Why the Future of Work Is Built on Interactions, Not Inboxes | OJO Blog"
 	/>
 
 	<meta

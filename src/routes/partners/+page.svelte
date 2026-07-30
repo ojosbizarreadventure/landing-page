@@ -20,61 +20,61 @@
 </script>
 
 <svelte:head>
-	<title>Telugo Partners | AI Business Partnerships & Integrations</title>
+	<title>OJO Partners | AI Business Partnerships & Integrations</title>
 
 	<meta
 		name="description"
-		content="Partner with Telugo to deliver AI-powered business solutions for SMBs. Explore technology partnerships, integrations, and collaboration opportunities."
+		content="Partner with OJO to deliver AI-powered business solutions for SMBs. Explore technology partnerships, integrations, and collaboration opportunities."
 	/>
 
 	<meta
 		name="keywords"
-		content="Telugo partners, AI software partnerships, SaaS partnerships, business software integrations, technology partners, SMB software ecosystem, AI business collaboration"
+		content="OJO partners, AI software partnerships, SaaS partnerships, business software integrations, technology partners, SMB software ecosystem, AI business collaboration"
 	/>
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo" />
-	<meta name="publisher" content="Telugo" />
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
 
-	<link rel="canonical" href="https://www.telugo.ai/partners" />
+	<link rel="canonical" href="https://www.ojo.io/partners" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.telugo.ai/partners" />
-	<meta property="og:title" content="Telugo Partners | AI Business Partnerships & Integrations" />
+	<meta property="og:url" content="https://www.ojo.io/partners" />
+	<meta property="og:title" content="OJO Partners | AI Business Partnerships & Integrations" />
 	<meta
 		property="og:description"
-		content="Explore partnership opportunities with Telugo for AI-powered business automation, integrations, and SMB growth solutions."
+		content="Explore partnership opportunities with OJO for AI-powered business automation, integrations, and SMB growth solutions."
 	/>
-	<meta property="og:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:url" content="https://www.telugo.ai/partners" />
-	<meta name="twitter:title" content="Telugo Partners | AI Business Partnerships & Integrations" />
+	<meta name="twitter:url" content="https://www.ojo.io/partners" />
+	<meta name="twitter:title" content="OJO Partners | AI Business Partnerships & Integrations" />
 	<meta
 		name="twitter:description"
-		content="Join the Telugo partner ecosystem to deliver AI-native business software solutions for growing SMBs."
+		content="Join the OJO partner ecosystem to deliver AI-native business software solutions for growing SMBs."
 	/>
-	<meta name="twitter:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Schema Markup -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "WebPage",
-			"name": "Telugo Partners",
-			"url": "https://www.telugo.ai/partners",
-			"description": "Partnership and integration opportunities with Telugo's AI-native business operating system.",
+			"name": "OJO Partners",
+			"url": "https://www.ojo.io/partners",
+			"description": "Partnership and integration opportunities with OJO's AI-native business operating system.",
 			"publisher": {
 				"@type": "Organization",
-				"name": "Telugo",
-				"url": "https://www.telugo.ai"
+				"name": "OJO",
+				"url": "https://www.ojo.io"
 			},
 			"mainEntity": {
 				"@type": "Organization",
-				"name": "Telugo"
+				"name": "OJO"
 			}
 		}
 	</script>
@@ -84,7 +84,7 @@
 	<div class="container">
 		<div class="hero-content">
 			<p class="label reveal">Partner Program</p>
-			<h1 class="d1 reveal" style="max-width:640px">Grow with Telugo. <span class="accent">Together.</span></h1>
+			<h1 class="d1 reveal" style="max-width:640px">Grow with OJO. <span class="accent">Together.</span></h1>
 			<p class="body-l hero-desc reveal">Join our partner network and help your clients adopt the operating system built for modern SMBs. You bring the relationships, we bring the platform.</p>
 		</div>
 	</div>
@@ -96,7 +96,7 @@
 			<div class="cell" style="text-align:center">
 				<div class="val-i" style="margin:0 auto 14px">&#9733;</div>
 				<div class="prob-t">Revenue sharing</div>
-				<div class="prob-d">Earn recurring commissions on every client you bring to Telugo. The more they grow, the more you earn.</div>
+				<div class="prob-d">Earn recurring commissions on every client you bring to OJO. The more they grow, the more you earn.</div>
 			</div>
 			<div class="cell" style="text-align:center">
 				<div class="val-i" style="margin:0 auto 14px">&#9878;</div>
@@ -115,7 +115,7 @@
 				<div style="margin-bottom:32px">
 					<p class="label" style="margin-bottom:12px">Who we're looking for</p>
 					<h2 class="d3" style="margin-bottom:16px">Agencies that <span class="accent">care about operations.</span></h2>
-					<p class="body-m">Whether you're an IT consultancy, a business advisory firm, a digital agency, or a systems integrator, if your clients struggle with fragmented workflows, Telugo is the solution you can bring to them.</p>
+					<p class="body-m">Whether you're an IT consultancy, a business advisory firm, a digital agency, or a systems integrator, if your clients struggle with fragmented workflows, OJO is the solution you can bring to them.</p>
 				</div>
 
 				<div style="display:flex;flex-direction:column;gap:16px">
@@ -197,7 +197,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="form-label" for="p-clients">How many clients could benefit from Telugo?</label>
+							<label class="form-label" for="p-clients">How many clients could benefit from OJO?</label>
 							<input class="form-input" id="p-clients" type="text" placeholder="e.g. 10-20 clients" bind:value={clients} />
 						</div>
 						<div class="form-group">

@@ -8,7 +8,7 @@
 			name: 'Manufacturing & Fabrication',
 			image: '/sol-manufacturing.svg',
 			alt: 'An order travelling through four production stations, turning from turquoise to amber as it is made',
-			desc: 'Sales orders, bill of materials, work orders and QC in one board. Telugo checks material before you promise a date, flags a shortage days before the line stops, and turns a finished batch into an invoice without re-entry.',
+			desc: 'Sales orders, bill of materials, work orders and QC in one board. OJO checks material before you promise a date, flags a shortage days before the line stops, and turns a finished batch into an invoice without re-entry.',
 			stats: [
 				{ val: '78', label: 'Factory Score, live' },
 				{ val: '0', label: 'Re-entry, order to invoice' },
@@ -91,11 +91,11 @@
 </script>
 
 <svelte:head>
-	<title>AI Business Solutions for SMBs | Telugo Solutions</title>
+	<title>AI Business Solutions for SMBs | OJO Solutions</title>
 
 	<meta
 		name="description"
-		content="Discover AI-powered business solutions by Telugo for Sales, CRM, Projects, Manufacturing, HR, Payroll and Finance. Built to help SMBs streamline operations and scale faster."
+		content="Discover AI-powered business solutions by OJO for Sales, CRM, Projects, Manufacturing, HR, Payroll and Finance. Built to help SMBs streamline operations and scale faster."
 	/>
 
 	<meta
@@ -105,47 +105,47 @@
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo" />
-	<meta name="publisher" content="Telugo" />
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
 
-	<link rel="canonical" href="https://www.telugo.ai/solutions" />
+	<link rel="canonical" href="https://www.ojo.io/solutions" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.telugo.ai/solutions" />
-	<meta property="og:title" content="AI Business Solutions for SMBs | Telugo Solutions" />
+	<meta property="og:url" content="https://www.ojo.io/solutions" />
+	<meta property="og:title" content="AI Business Solutions for SMBs | OJO Solutions" />
 	<meta
 		property="og:description"
-		content="Explore AI-powered business solutions for Sales, Projects, Manufacturing, HR and Finance with Telugo's unified operating platform."
+		content="Explore AI-powered business solutions for Sales, Projects, Manufacturing, HR and Finance with OJO's unified operating platform."
 	/>
-	<meta property="og:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:url" content="https://www.telugo.ai/solutions" />
-	<meta name="twitter:title" content="AI Business Solutions for SMBs | Telugo Solutions" />
+	<meta name="twitter:url" content="https://www.ojo.io/solutions" />
+	<meta name="twitter:title" content="AI Business Solutions for SMBs | OJO Solutions" />
 	<meta
 		name="twitter:description"
 		content="AI-native business solutions for SMBs to automate operations, improve productivity, and drive growth."
 	/>
-	<meta name="twitter:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Schema Markup -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "WebPage",
-			"name": "Telugo Solutions",
-			"url": "https://www.telugo.ai/solutions",
+			"name": "OJO Solutions",
+			"url": "https://www.ojo.io/solutions",
 			"description": "AI-powered business solutions for SMBs including CRM, Projects, Manufacturing, HR, Payroll and Finance management.",
 			"publisher": {
 				"@type": "Organization",
-				"name": "Telugo",
-				"url": "https://www.telugo.ai"
+				"name": "OJO",
+				"url": "https://www.ojo.io"
 			},
 			"mainEntity": {
 				"@type": "SoftwareApplication",
-				"name": "Telugo",
+				"name": "OJO",
 				"applicationCategory": "BusinessApplication",
 				"operatingSystem": "Web"
 			}
@@ -158,7 +158,7 @@
 		<div class="hero-content">
 			<p class="label reveal">Solutions</p>
 			<h1 class="d1 reveal" style="max-width:620px">Built for teams that sell <span class="accent">expertise &mdash; and things.</span></h1>
-			<p class="body-l hero-desc reveal">Telugo is purpose-built for companies where orders, people, material and profitability are tightly linked &mdash; whether you ship code or steel.</p>
+			<p class="body-l hero-desc reveal">OJO is purpose-built for companies where orders, people, material and profitability are tightly linked &mdash; whether you ship code or steel.</p>
 		</div>
 	</div>
 </section>
@@ -232,30 +232,30 @@
 	</div>
 </section>
 
-<!-- Telugo AI: Common across all solutions -->
+<!-- OJO AI: Common across all solutions -->
 <section class="section">
 	<div class="container">
 		<div style="text-align:center;max-width:620px;margin:0 auto 48px">
-			<p class="label reveal">Telugo AI, built into every solution</p>
+			<p class="label reveal">OJO AI, built into every solution</p>
 			<h2 class="d2 reveal" style="margin-bottom:12px">A helpful co-pilot for <span class="accent">your team.</span></h2>
-			<p class="body-m reveal">Telugo AI works quietly in the background, surfacing helpful nudges, summaries, and suggestions so your team always has the right information at the right time. You stay in control. Telugo AI just makes sure nothing slips through the cracks.</p>
+			<p class="body-m reveal">OJO AI works quietly in the background, surfacing helpful nudges, summaries, and suggestions so your team always has the right information at the right time. You stay in control. OJO AI just makes sure nothing slips through the cracks.</p>
 		</div>
 
 		<div class="grid-3 reveal">
 			<div class="cell" style="text-align:center">
 				<div style="font-size:28px;margin-bottom:12px">&#128172;</div>
 				<div class="prob-t">Ask anything, simply</div>
-				<div class="prob-d">"Why is PO-104 delayed?" "What ships this week?" "Show me pending invoices." Just type what you need. Telugo AI pulls your latest data and gives you a clear, human-readable answer.</div>
+				<div class="prob-d">"Why is PO-104 delayed?" "What ships this week?" "Show me pending invoices." Just type what you need. OJO AI pulls your latest data and gives you a clear, human-readable answer.</div>
 			</div>
 			<div class="cell" style="text-align:center">
 				<div style="font-size:28px;margin-bottom:12px">&#128161;</div>
 				<div class="prob-t">Gentle, timely nudges</div>
-				<div class="prob-d">Telugo AI keeps an eye on your operations and sends you helpful reminders: an invoice that's overdue, a job that's drifting, a raw material about to run out. Think of it as a thoughtful assistant, not a surveillance tool.</div>
+				<div class="prob-d">OJO AI keeps an eye on your operations and sends you helpful reminders: an invoice that's overdue, a job that's drifting, a raw material about to run out. Think of it as a thoughtful assistant, not a surveillance tool.</div>
 			</div>
 			<div class="cell" style="text-align:center">
 				<div style="font-size:28px;margin-bottom:12px">&#127919;</div>
 				<div class="prob-t">Connected insights, clear context</div>
-				<div class="prob-d">Because Telugo connects Sales, Projects, Manufacturing, HR and Finance, you get the full picture without having to piece it together yourself. Telugo AI connects the dots so you can focus on decisions, not data gathering.</div>
+				<div class="prob-d">Because OJO connects Sales, Projects, Manufacturing, HR and Finance, you get the full picture without having to piece it together yourself. OJO AI connects the dots so you can focus on decisions, not data gathering.</div>
 			</div>
 		</div>
 	</div>
@@ -264,7 +264,7 @@
 <section class="testi">
 	<div class="container">
 		<div class="testi-inner reveal">
-			<p class="testi-quote">"We make components to order, so a single missing raw material can idle a machine for a day. Telugo tells us on Monday what we used to discover on Thursday."</p>
+			<p class="testi-quote">"We make components to order, so a single missing raw material can idle a machine for a day. OJO tells us on Monday what we used to discover on Thursday."</p>
 			<p class="testi-name">Ananya Krishnan</p>
 			<p class="testi-role">COO, Meridian Fabrication &middot; Coimbatore &middot; 140 employees</p>
 		</div>
@@ -274,7 +274,7 @@
 <section class="cta-sec">
 	<div class="container">
 		<div class="cta-inner">
-			<h2 class="d2 reveal">See how Telugo fits <span class="accent">your business.</span></h2>
+			<h2 class="d2 reveal">See how OJO fits <span class="accent">your business.</span></h2>
 			<p class="body-l reveal" style="margin-top:16px">Book a 20-minute walkthrough tailored to your industry.</p>
 			<div class="cta-actions reveal">
 				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>

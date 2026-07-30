@@ -1,9 +1,9 @@
 <svelte:head>
-	<title>AI Business Insights & SMB Growth Blog | Telugo</title>
+	<title>AI Business Insights & SMB Growth Blog | OJO</title>
 
 	<meta
 		name="description"
-		content="Read the latest insights on AI, business automation, CRM, HR, Finance, and SMB growth strategies from the Telugo blog."
+		content="Read the latest insights on AI, business automation, CRM, HR, Finance, and SMB growth strategies from the OJO blog."
 	/>
 
 	<meta
@@ -13,46 +13,46 @@
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo" />
-	<meta name="publisher" content="Telugo" />
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
 
-	<link rel="canonical" href="https://www.telugo.ai/blog" />
+	<link rel="canonical" href="https://www.ojo.io/blog" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.telugo.ai/blog" />
-	<meta property="og:title" content="AI Business Insights & SMB Growth Blog | Telugo" />
+	<meta property="og:url" content="https://www.ojo.io/blog" />
+	<meta property="og:title" content="AI Business Insights & SMB Growth Blog | OJO" />
 	<meta
 		property="og:description"
-		content="Explore AI-powered business insights, automation strategies, and SMB growth resources on the Telugo blog."
+		content="Explore AI-powered business insights, automation strategies, and SMB growth resources on the OJO blog."
 	/>
-	<meta property="og:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:url" content="https://www.telugo.ai/blog" />
-	<meta name="twitter:title" content="AI Business Insights & SMB Growth Blog | Telugo" />
+	<meta name="twitter:url" content="https://www.ojo.io/blog" />
+	<meta name="twitter:title" content="AI Business Insights & SMB Growth Blog | OJO" />
 	<meta
 		name="twitter:description"
-		content="Business automation, AI software, CRM, HR, Finance, and SMB growth insights from the Telugo team."
+		content="Business automation, AI software, CRM, HR, Finance, and SMB growth insights from the OJO team."
 	/>
-	<meta name="twitter:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Schema Markup -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "Blog",
-			"name": "Telugo Blog",
-			"url": "https://www.telugo.ai/blog",
-			"description": "The Telugo blog shares insights on AI, business automation, CRM, HR, Finance, and SMB growth.",
+			"name": "OJO Blog",
+			"url": "https://www.ojo.io/blog",
+			"description": "The OJO blog shares insights on AI, business automation, CRM, HR, Finance, and SMB growth.",
 			"publisher": {
 				"@type": "Organization",
-				"name": "Telugo",
-				"url": "https://www.telugo.ai",
+				"name": "OJO",
+				"url": "https://www.ojo.io",
 				"logo": {
 					"@type": "ImageObject",
-					"url": "https://www.telugo.ai/logo.png"
+					"url": "https://www.ojo.io/logo.png"
 				}
 			}
 		}

@@ -1,52 +1,52 @@
 <svelte:head>
-	<title>About Telugo | AI-Native Business Operating System for SMBs</title>
+	<title>About OJO | AI-Native Business Operating System for SMBs</title>
 
 	<meta
 		name="description"
-		content="Learn about Telugo, the AI-native business operating system helping SMBs streamline Sales, Projects, Manufacturing, HR, Payroll and Finance in one unified platform."
+		content="Learn about OJO, the AI-native business operating system helping SMBs streamline Sales, Projects, Manufacturing, HR, Payroll and Finance in one unified platform."
 	/>
 
 	<meta
 		name="keywords"
-		content="about Telugo, AI business software company, SMB operating system, AI-native ERP platform, business automation company, SaaS company for SMBs"
+		content="about OJO, AI business software company, SMB operating system, AI-native ERP platform, business automation company, SaaS company for SMBs"
 	/>
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo" />
-	<meta name="publisher" content="Telugo" />
+	<meta name="author" content="OJO" />
+	<meta name="publisher" content="OJO" />
 
-	<link rel="canonical" href="https://www.telugo.ai/company" />
+	<link rel="canonical" href="https://www.ojo.io/company" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.telugo.ai/company" />
-	<meta property="og:title" content="About Telugo | AI-Native Business Operating System for SMBs" />
+	<meta property="og:url" content="https://www.ojo.io/company" />
+	<meta property="og:title" content="About OJO | AI-Native Business Operating System for SMBs" />
 	<meta
 		property="og:description"
-		content="Discover Telugo's mission to simplify business operations with an AI-native platform built for growing SMBs."
+		content="Discover OJO's mission to simplify business operations with an AI-native platform built for growing SMBs."
 	/>
-	<meta property="og:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta property="og:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:url" content="https://www.telugo.ai/company" />
-	<meta name="twitter:title" content="About Telugo | AI-Native Business Operating System for SMBs" />
+	<meta name="twitter:url" content="https://www.ojo.io/company" />
+	<meta name="twitter:title" content="About OJO | AI-Native Business Operating System for SMBs" />
 	<meta
 		name="twitter:description"
-		content="Meet the team and mission behind Telugo, the AI-powered operating system designed for modern SMBs."
+		content="Meet the team and mission behind OJO, the AI-powered operating system designed for modern SMBs."
 	/>
-	<meta name="twitter:image" content="https://www.telugo.ai/og-image.jpg" />
+	<meta name="twitter:image" content="https://www.ojo.io/og-image.jpg" />
 
 	<!-- Schema Markup -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "Organization",
-			"name": "Telugo",
-			"url": "https://www.telugo.ai",
-			"logo": "https://www.telugo.ai/logo.png",
-			"description": "Telugo is an AI-native business operating system built for SMBs to manage Sales, Projects, Manufacturing, HR, Payroll and Finance from one platform.",
+			"name": "OJO",
+			"url": "https://www.ojo.io",
+			"logo": "https://www.ojo.io/logo.png",
+			"description": "OJO is an AI-native business operating system built for SMBs to manage Sales, Projects, Manufacturing, HR, Payroll and Finance from one platform.",
 			"sameAs": [
 				"https://www.linkedin.com/",
 				"https://twitter.com/"
@@ -58,7 +58,7 @@
 			"contactPoint": {
 				"@type": "ContactPoint",
 				"contactType": "sales",
-				"url": "https://www.telugo.ai/contact"
+				"url": "https://www.ojo.io/contact"
 			}
 		}
 	</script>
@@ -81,7 +81,7 @@
 				<p>"We spend more time managing work than doing it." That line from an SMB founder is what started everything.</p>
 				<p>Millions of businesses try to grow while drowning in broken workflows. Tools exist but they're siloed. ERPs exist but they're built for enterprises. Nothing was built from the ground up for the 50–500 employee company.</p>
 				<blockquote>SMBs power the economy, but their operations are stuck in the past.</blockquote>
-				<p>Telugo is the AI-native operating system designed to change that. Built to think, learn, and act so teams can operate with the efficiency of companies ten times their size. Telugo operates under the business name of Telugo AI Pvt Ltd.</p>
+				<p>OJO is the AI-native operating system designed to change that. Built to think, learn, and act so teams can operate with the efficiency of companies ten times their size. OJO operates under the business name of Ojo AI Pvt Ltd.</p>
 			</div>
 			<div></div>
 		</div>
@@ -91,7 +91,7 @@
 <section class="section">
 	<div class="container">
 		<p class="label reveal">Values</p>
-		<h2 class="d2 reveal" style="margin-bottom:48px">What drives <span class="accent">Telugo.</span></h2>
+		<h2 class="d2 reveal" style="margin-bottom:48px">What drives <span class="accent">OJO.</span></h2>
 		<div class="val-grid reveal">
 			<div class="cell">
 				<div class="val-i">&#9678;</div>
@@ -116,7 +116,7 @@
 	<div class="container">
 		<div class="cta-inner">
 			<h2 class="d2 reveal">Experience the future of <span class="accent">business operations.</span></h2>
-			<p class="body-l reveal" style="margin-top:16px">Talk to our team and see Telugo in action.</p>
+			<p class="body-l reveal" style="margin-top:16px">Talk to our team and see OJO in action.</p>
 			<div class="cta-actions reveal">
 				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>
 			</div>

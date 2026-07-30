@@ -6,15 +6,15 @@
 	const heroSlides = [
 		{
 			headline: 'Stop managing work.<br>Start <span class="accent">growing.</span>',
-			desc: 'Telugo unifies Sales, Projects, Manufacturing, HR, and Finance into one AI-native OS — giving every team one source of truth and an engine that thinks ahead.'
+			desc: 'OJO unifies Sales, Projects, Manufacturing, HR, and Finance into one AI-native OS — giving every team one source of truth and an engine that thinks ahead.'
 		},
 		{
 			headline: 'From first lead to<br><span class="accent">last shipment.</span>',
-			desc: 'Quote it, plan it, make it, ship it, invoice it. Telugo runs the whole chain in one system — so the shop floor and the sales desk finally see the same truth.'
+			desc: 'Quote it, plan it, make it, ship it, invoice it. OJO runs the whole chain in one system — so the shop floor and the sales desk finally see the same truth.'
 		},
 		{
 			headline: 'Ten tools. Zero context.<br>A <span class="accent">better way</span> exists.',
-			desc: 'Your CRM, production board, payroll, and invoices live in silos. Decisions slow down. Telugo brings everything into one intelligent workspace.'
+			desc: 'Your CRM, production board, payroll, and invoices live in silos. Decisions slow down. OJO brings everything into one intelligent workspace.'
 		}
 	];
 
@@ -114,47 +114,47 @@
 </script>
 
 <svelte:head>
-	<title>India's First AI-Native Business Superapp for SMBs | Telugo</title>    
+	<title>India's First AI-Native Business Superapp for SMBs | OJO</title>    
 	
 
 	<meta
 		name="description"
-		content="Telugo is India's First AI-Native Business Superapp unifying CRM, Projects, Manufacturing, HR, Payroll & Accounting in one platform. Built for SMBs with 50–500 employees. Stop managing work. Start growing."
+		content="OJO is India's First AI-Native Business Superapp unifying CRM, Projects, Manufacturing, HR, Payroll & Accounting in one platform. Built for SMBs with 50–500 employees. Stop managing work. Start growing."
 	/>
 
 	<meta
 	name="keywords"
-	content="AI business software India, AI-native CRM India, business superapp for SMBs, manufacturing ERP India, production planning software India, MRP software for SMBs, shop floor management software, project management software India, HR software India, payroll software India, accounting software India, all-in-one business platform India, AI operating system for businesses, Telugo business OS"
+	content="AI business software India, AI-native CRM India, business superapp for SMBs, manufacturing ERP India, production planning software India, MRP software for SMBs, shop floor management software, project management software India, HR software India, payroll software India, accounting software India, all-in-one business platform India, AI operating system for businesses, OJO business OS"
 	/>
 
 	<meta name="robots" content="index, follow" />
 
-	<meta name="author" content="Telugo AI" />
+	<meta name="author" content="OJO AI" />
 
-	<meta name="publisher" content="Telugo AI" />
+	<meta name="publisher" content="OJO AI" />
 
-	<link rel="canonical" href="https://www.telugo.ai/" />
+	<link rel="canonical" href="https://www.ojo.io/" />
 
 	<!-- Open Graph -->
-	<meta property="og:title" content="Telugo | AI-Native Business Operating System for SMBs" />
+	<meta property="og:title" content="OJO | AI-Native Business Operating System for SMBs" />
 
 	<meta
 		property="og:description"
 		content="One AI-native platform for Sales, Projects, Manufacturing, HR, and Finance."
 	/>
 
-	<meta property="og:url" content="https://www.telugo.ai/" />
+	<meta property="og:url" content="https://www.ojo.io/" />
 
 	<meta property="og:type" content="website" />
 
-	<meta property="og:site_name" content="Telugo AI" />
+	<meta property="og:site_name" content="OJO AI" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
 
 	<meta
 		name="twitter:title"
-		content="Telugo | AI-Native Business Operating System for SMBs"
+		content="OJO | AI-Native Business Operating System for SMBs"
 	/>
 
 	<meta
@@ -167,14 +167,14 @@
 		{
 			"@context": "https://schema.org",
 			"@type": "SoftwareApplication",
-			"name": "Telugo AI",
-			"url": "https://www.telugo.ai",
+			"name": "OJO AI",
+			"url": "https://www.ojo.io",
 			"applicationCategory": "BusinessApplication",
 			"operatingSystem": "Web",
 			"description": "AI-native business operating system for SMBs, covering sales, projects, manufacturing, HR and finance.",
 			"publisher": {
 				"@type": "Organization",
-				"name": "Telugo AI"
+				"name": "OJO AI"
 			}
 		}
 	</script>
@@ -242,7 +242,7 @@
 				<div class="demo-dot"></div><div class="demo-dot"></div><div class="demo-dot"></div>
 				<div style="margin-left:12px;display:flex;align-items:center;gap:6px">
 					<Logo height={16} wordmark={false} />
-					<div class="demo-url" style="margin-left:0">app.telugo.ai</div>
+					<div class="demo-url" style="margin-left:0">erp.ojo.io</div>
 				</div>
 			</div>
 			<div class="demo-body">
@@ -256,7 +256,7 @@
 					</div>
 				</div>
 				<div class="demo-agent">
-					<div class="agent-head"><div class="agent-dot"></div><div class="agent-title">Telugo AI</div></div>
+					<div class="agent-head"><div class="agent-dot"></div><div class="agent-title">OJO AI</div></div>
 					<div class="agent-msgs" bind:this={msgsEl}>
 						{#each agentMessages as msg}
 							<div class="agent-msg" class:agent-msg-user={msg.type === 'user'}>
@@ -268,7 +268,7 @@
 						{/if}
 					</div>
 					<div class="agent-input-wrap">
-						<input class="agent-input" placeholder="Ask Telugo anything..." bind:value={agentInput} onkeydown={handleKeydown} />
+						<input class="agent-input" placeholder="Ask OJO anything..." bind:value={agentInput} onkeydown={handleKeydown} />
 						<button class="agent-send" onclick={sendAgent} aria-label="Send message">
 							<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
 						</button>
@@ -303,9 +303,9 @@
 		<h2 class="d2 reveal" style="margin-bottom:20px">Your business runs on<br><span class="accent">10 disconnected tools.</span></h2>
 		<p class="body-m reveal" style="max-width:480px;margin-bottom:48px">That's why context gets lost, machines sit idle, and decisions arrive a week late.</p>
 		<div class="grid-3 reveal">
-			<div class="cell"><div class="prob-num">01</div><div class="prob-t">Data lives everywhere</div><div class="prob-d">Orders in one tool. The production plan on a whiteboard. HR on spreadsheets. Finance on WhatsApp. Nobody has the full picture, so everybody guesses.</div><div class="prob-tag">&rarr; Telugo unifies everything</div></div>
-			<div class="cell"><div class="prob-num">02</div><div class="prob-t">You find out too late</div><div class="prob-d">The material shortage surfaces on the morning the machine goes idle. The overdue invoice surfaces at month close. By then the cost is already sunk.</div><div class="prob-tag">&rarr; Telugo flags it days earlier</div></div>
-			<div class="cell"><div class="prob-num">03</div><div class="prob-t">Growth hits a ceiling</div><div class="prob-d">Every new tool adds another re-entry, another export, another person who has to be asked. Doubling output means doubling the chaos.</div><div class="prob-tag">&rarr; Telugo scales with you</div></div>
+			<div class="cell"><div class="prob-num">01</div><div class="prob-t">Data lives everywhere</div><div class="prob-d">Orders in one tool. The production plan on a whiteboard. HR on spreadsheets. Finance on WhatsApp. Nobody has the full picture, so everybody guesses.</div><div class="prob-tag">&rarr; OJO unifies everything</div></div>
+			<div class="cell"><div class="prob-num">02</div><div class="prob-t">You find out too late</div><div class="prob-d">The material shortage surfaces on the morning the machine goes idle. The overdue invoice surfaces at month close. By then the cost is already sunk.</div><div class="prob-tag">&rarr; OJO flags it days earlier</div></div>
+			<div class="cell"><div class="prob-num">03</div><div class="prob-t">Growth hits a ceiling</div><div class="prob-d">Every new tool adds another re-entry, another export, another person who has to be asked. Doubling output means doubling the chaos.</div><div class="prob-tag">&rarr; OJO scales with you</div></div>
 		</div>
 	</div>
 </section>
@@ -333,7 +333,7 @@
 							<span class="mod-arrow">&rarr;</span>
 						</div>
 						<div class="mod-d" style="max-width:660px;margin-bottom:0">
-							The shop floor, finally connected to the rest of the business. A sales order becomes a production order becomes an invoice &mdash; without a single re-entry. Telugo watches material, capacity and quality together, and tells you which job to release first.
+							The shop floor, finally connected to the rest of the business. A sales order becomes a production order becomes an invoice &mdash; without a single re-entry. OJO watches material, capacity and quality together, and tells you which job to release first.
 						</div>
 						<div class="mod-feature-grid">
 							<div class="mfg-tile">
@@ -365,15 +365,15 @@
 					</div>
 				</a>
 			</div>
-		<!-- Telugo Brain: spans full width inside the same grid wrapper -->
+		<!-- OJO Brain: spans full width inside the same grid wrapper -->
 		<div class="grid-brain reveal">
 			<div style="display:flex;align-items:center;gap:24px;padding:36px 32px;position:relative;z-index:1">
 				<div style="flex-shrink:0;width:56px;height:56px;border-radius:14px;background:linear-gradient(145deg,var(--tq2),var(--tq-brand));display:flex;align-items:center;justify-content:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),var(--lift-2)">
 					<Logo height={28} white wordmark={false} />
 				</div>
 				<div style="flex:1">
-					<div style="font-size:13px;font-weight:900;letter-spacing:-.02em;color:var(--t1);margin-bottom:4px">Telugo Brain &mdash; the intelligence every module shares</div>
-					<div style="font-size:14px;line-height:1.65;color:var(--t2)">One intelligence layer across Sales, Projects, Manufacturing, HR and Finance. It reads your order book against your material stock and your capacity, spots the pattern before it becomes a delay, and hands you a ranked list of what to do. It drafts; you approve. Telugo never acts on your business without you.</div>
+					<div style="font-size:13px;font-weight:900;letter-spacing:-.02em;color:var(--t1);margin-bottom:4px">OJO Brain &mdash; the intelligence every module shares</div>
+					<div style="font-size:14px;line-height:1.65;color:var(--t2)">One intelligence layer across Sales, Projects, Manufacturing, HR and Finance. It reads your order book against your material stock and your capacity, spots the pattern before it becomes a delay, and hands you a ranked list of what to do. It drafts; you approve. OJO never acts on your business without you.</div>
 				</div>
 			</div>
 			<div style="position:absolute;top:0;right:0;width:200px;height:100%;background:radial-gradient(circle at 100% 50%,var(--tq-g),transparent 70%);pointer-events:none"></div>
@@ -392,7 +392,7 @@
 <section class="testi">
 	<div class="container">
 		<div class="testi-inner reveal">
-			<p class="testi-quote">"We ran the shop floor on a whiteboard and the order book on Tally. Telugo put them in the same place. I stopped finding out about a material shortage on the day the machine went idle."</p>
+			<p class="testi-quote">"We ran the shop floor on a whiteboard and the order book on Tally. OJO put them in the same place. I stopped finding out about a material shortage on the day the machine went idle."</p>
 			<p class="testi-name">Rahul Menon</p>
 			<p class="testi-role">Director, Shree Precision Engineering &middot; Pune &middot; 120 employees</p>
 		</div>
@@ -402,12 +402,12 @@
 <!-- Comparison -->
 <section class="section">
 	<div class="container">
-		<p class="label reveal">Why Telugo</p>
+		<p class="label reveal">Why OJO</p>
 		<h2 class="d2 reveal" style="margin-bottom:48px">Not another tool.<br><span class="accent">A new category.</span></h2>
 		<div class="grid-3 reveal">
-			<div class="cell" style="text-align:center"><div style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--tq);margin-bottom:10px">vs Task Tools</div><div class="d3" style="margin-bottom:10px">Smarter <span class="accent">execution</span></div><div class="body-s">Monday & ClickUp track tasks. Telugo automates updates, detects deviations, and recommends actions.</div></div>
-			<div class="cell" style="text-align:center"><div style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--tq);margin-bottom:10px">vs ERPs</div><div class="d3" style="margin-bottom:10px">Simpler, <span class="accent">faster</span></div><div class="body-s">Zoho & Odoo need months of setup and a consultant. Telugo works day one, with AI reasoning across every module.</div></div>
-			<div class="cell" style="text-align:center"><div style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--tq);margin-bottom:10px">vs Chat Tools</div><div class="d3" style="margin-bottom:10px">Context that <span class="accent">sticks</span></div><div class="body-s">WhatsApp & Email lose context. In Telugo, every message stays tied to its project and team.</div></div>
+			<div class="cell" style="text-align:center"><div style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--tq);margin-bottom:10px">vs Task Tools</div><div class="d3" style="margin-bottom:10px">Smarter <span class="accent">execution</span></div><div class="body-s">Monday & ClickUp track tasks. OJO automates updates, detects deviations, and recommends actions.</div></div>
+			<div class="cell" style="text-align:center"><div style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--tq);margin-bottom:10px">vs ERPs</div><div class="d3" style="margin-bottom:10px">Simpler, <span class="accent">faster</span></div><div class="body-s">Zoho & Odoo need months of setup and a consultant. OJO works day one, with AI reasoning across every module.</div></div>
+			<div class="cell" style="text-align:center"><div style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--tq);margin-bottom:10px">vs Chat Tools</div><div class="d3" style="margin-bottom:10px">Context that <span class="accent">sticks</span></div><div class="body-s">WhatsApp & Email lose context. In OJO, every message stays tied to its project and team.</div></div>
 		</div>
 	</div>
 </section>
@@ -417,7 +417,7 @@
 	<div class="container">
 		<div class="cta-inner">
 			<h2 class="d2 reveal">Stop juggling.<br>Start <span class="accent">building.</span></h2>
-			<p class="body-l reveal" style="margin-top:16px">Tell us how you run today &mdash; we'll show you the same day, running in Telugo.</p>
+			<p class="body-l reveal" style="margin-top:16px">Tell us how you run today &mdash; we'll show you the same day, running in OJO.</p>
 			<div class="cta-actions reveal">
 				<a class="btn-primary btn-primary-lg" href="/contact">Talk to Sales &rarr;</a>
 				<a class="btn-outline-lg" href="/contact">Book a Demo</a>
