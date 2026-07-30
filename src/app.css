@@ -718,6 +718,17 @@ footer { padding: 56px clamp(20px, 4vw, 64px) 28px; border-top: 1px solid var(--
 .form-input:focus { border-color: var(--tq); box-shadow: 0 0 0 3px var(--tq-g); }
 .form-textarea { min-height: 120px; resize: vertical; line-height: 1.6; }
 .form-radio-group { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* Spam honeypot — pushed off-screen rather than display:none, which some bots
+   check for. Never focusable, never announced. */
+.form-honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+
+.form-error {
+	font-size: 13px; line-height: 1.6; color: var(--r2);
+	background: var(--r-g); border: 1px solid rgba(240, 75, 86, .22);
+	border-radius: 10px; padding: 12px 14px; margin-bottom: 16px;
+}
+.form-error a { color: var(--r2); font-weight: 700; }
 .form-radio {
 	font-size: 13px; font-weight: 500; color: var(--t2);
 	padding: 7px 14px; border-radius: 8px;

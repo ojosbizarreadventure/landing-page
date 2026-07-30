@@ -1,19 +1,61 @@
 <script lang="ts">
+	// Web3Forms delivers this form to our inbox. The access key is meant to live
+	// in the client — it only identifies which inbox to deliver to.
+	const WEB3FORMS_KEY = '63727f54-3364-4a69-b17d-402963e9bb84';
+
+	const typeLabels: Record<string, string> = {
+		product: 'Product query',
+		partnership: 'Partnership',
+		demo: 'Book a demo',
+		other: 'Other'
+	};
+
 	let name = $state('');
 	let email = $state('');
 	let type = $state('product');
 	let message = $state('');
+	// Honeypot — hidden from people, tempting to bots. Web3Forms drops anything
+	// that arrives with it filled in.
+	let botcheck = $state(false);
 	let submitted = $state(false);
 	let submitting = $state(false);
+	let error = $state('');
 
-	function handleSubmit(e: Event) {
+	async function handleSubmit(e: Event) {
 		e.preventDefault();
 		if (!name.trim() || !email.trim() || !message.trim()) return;
+
 		submitting = true;
-		setTimeout(() => {
+		error = '';
+
+		try {
+			const res = await fetch('https://api.web3forms.com/submit', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+				body: JSON.stringify({
+					access_key: WEB3FORMS_KEY,
+					subject: `OJO contact — ${typeLabels[type]} — ${name}`,
+					from_name: 'OJO website',
+					replyto: email,
+					botcheck,
+					name,
+					email,
+					enquiry_type: typeLabels[type],
+					message
+				})
+			});
+			const data = await res.json();
+
+			if (res.ok && data.success) {
+				submitted = true;
+			} else {
+				error = data.message || 'We could not send that. Please try again.';
+			}
+		} catch {
+			error = 'Could not reach our server. Check your connection and try again.';
+		} finally {
 			submitting = false;
-			submitted = true;
-		}, 1200);
+		}
 	}
 </script>
 
@@ -156,6 +198,16 @@
 					</div>
 				{:else}
 					<form onsubmit={handleSubmit}>
+						<!-- Honeypot: off-screen and skipped by keyboard, so only bots find it -->
+						<input
+							class="form-honeypot"
+							type="checkbox"
+							name="botcheck"
+							tabindex="-1"
+							autocomplete="off"
+							aria-hidden="true"
+							bind:checked={botcheck}
+						/>
 						<div class="form-group">
 							<label class="form-label" for="name">Your name</label>
 							<input class="form-input" id="name" type="text" placeholder="John Doe" bind:value={name} required />
@@ -185,6 +237,12 @@
 							<label class="form-label" for="message">Message</label>
 							<textarea class="form-input form-textarea" id="message" placeholder="Tell us how we can help..." bind:value={message} required></textarea>
 						</div>
+						{#if error}
+							<div class="form-error" role="alert">
+								{error} You can also email us directly at
+								<a href="mailto:contact@ojo.io">contact@ojo.io</a>.
+							</div>
+						{/if}
 						<button class="btn-primary btn-primary-lg" type="submit" style="width:100%" disabled={submitting}>
 							{submitting ? 'Sending...' : 'Send Message'}
 						</button>
