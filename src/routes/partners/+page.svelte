@@ -1,21 +1,48 @@
 <script lang="ts">
+	import { submitToWeb3Forms } from '$lib/web3forms';
+
+	const agencyLabels: Record<string, string> = {
+		it: 'IT Services',
+		consulting: 'Consulting',
+		digital: 'Digital Agency',
+		integrator: 'System Integrator'
+	};
+
 	let name = $state('');
 	let email = $state('');
 	let company = $state('');
 	let agencyType = $state('');
 	let clients = $state('');
 	let message = $state('');
+	// Honeypot — hidden from people, tempting to bots. Web3Forms drops anything
+	// that arrives with it set.
+	let botcheck = $state(false);
 	let submitted = $state(false);
 	let submitting = $state(false);
+	let error = $state('');
 
-	function handleSubmit(e: Event) {
+	async function handleSubmit(e: Event) {
 		e.preventDefault();
 		if (!name.trim() || !email.trim() || !company.trim() || !agencyType) return;
+
 		submitting = true;
-		setTimeout(() => {
-			submitting = false;
-			submitted = true;
-		}, 1200);
+		error = '';
+
+		const result = await submitToWeb3Forms({
+			subject: `OJO partner application — ${company}`,
+			replyto: email,
+			botcheck,
+			name,
+			email,
+			company,
+			agency_type: agencyLabels[agencyType] ?? agencyType,
+			potential_clients: clients || 'Not given',
+			message: message || 'No additional notes.'
+		});
+
+		submitting = false;
+		if (result.ok) submitted = true;
+		else error = result.error;
 	}
 </script>
 
@@ -167,6 +194,16 @@
 						<div class="body-s">Takes less than 2 minutes.</div>
 					</div>
 					<form onsubmit={handleSubmit}>
+						<!-- Honeypot: off-screen and skipped by keyboard, so only bots find it -->
+						<input
+							class="form-honeypot"
+							type="checkbox"
+							name="botcheck"
+							tabindex="-1"
+							autocomplete="off"
+							aria-hidden="true"
+							bind:checked={botcheck}
+						/>
 						<div class="form-group">
 							<label class="form-label" for="p-name">Your name</label>
 							<input class="form-input" id="p-name" type="text" placeholder="John Doe" bind:value={name} required />
@@ -204,6 +241,12 @@
 							<label class="form-label" for="p-message">Anything else you'd like to share?</label>
 							<textarea class="form-input form-textarea" id="p-message" placeholder="Tell us about your agency and how you see the partnership working..." bind:value={message}></textarea>
 						</div>
+						{#if error}
+							<div class="form-error" role="alert">
+								{error} You can also email us directly at
+								<a href="mailto:contact@ojo.io">contact@ojo.io</a>.
+							</div>
+						{/if}
 						<button class="btn-primary btn-primary-lg" type="submit" style="width:100%" disabled={submitting}>
 							{submitting ? 'Submitting...' : 'Apply as Partner'}
 						</button>

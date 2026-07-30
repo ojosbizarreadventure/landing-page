@@ -1,7 +1,5 @@
 <script lang="ts">
-	// Web3Forms delivers this form to our inbox. The access key is meant to live
-	// in the client — it only identifies which inbox to deliver to.
-	const WEB3FORMS_KEY = '63727f54-3364-4a69-b17d-402963e9bb84';
+	import { submitToWeb3Forms } from '$lib/web3forms';
 
 	const typeLabels: Record<string, string> = {
 		product: 'Product query',
@@ -28,34 +26,19 @@
 		submitting = true;
 		error = '';
 
-		try {
-			const res = await fetch('https://api.web3forms.com/submit', {
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-				body: JSON.stringify({
-					access_key: WEB3FORMS_KEY,
-					subject: `OJO contact — ${typeLabels[type]} — ${name}`,
-					from_name: 'OJO website',
-					replyto: email,
-					botcheck,
-					name,
-					email,
-					enquiry_type: typeLabels[type],
-					message
-				})
-			});
-			const data = await res.json();
+		const result = await submitToWeb3Forms({
+			subject: `OJO contact — ${typeLabels[type]} — ${name}`,
+			replyto: email,
+			botcheck,
+			name,
+			email,
+			enquiry_type: typeLabels[type],
+			message
+		});
 
-			if (res.ok && data.success) {
-				submitted = true;
-			} else {
-				error = data.message || 'We could not send that. Please try again.';
-			}
-		} catch {
-			error = 'Could not reach our server. Check your connection and try again.';
-		} finally {
-			submitting = false;
-		}
+		submitting = false;
+		if (result.ok) submitted = true;
+		else error = result.error;
 	}
 </script>
 
