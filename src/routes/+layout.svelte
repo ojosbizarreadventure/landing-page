@@ -63,7 +63,7 @@
 		<button class="nav-hamburger" onclick={() => mobileMenuOpen = !mobileMenuOpen}>
 			{mobileMenuOpen ? '✕' : '☰'}
 		</button>
-		<a class="btn-ghost" href="https://erp.staging.ojo.io" target="_blank" rel="noopener noreferrer">Log in</a>
+		<a class="btn-ghost" href="https://erp.ojo.io" target="_blank" rel="noopener noreferrer">Log in</a>
 		<a class="btn-primary" href="/contact">Talk to Sales</a>
 	</div>
 </nav>
@@ -76,7 +76,7 @@
 		<a class:on={page.url.pathname === '/pricing'} href="/pricing" onclick={() => mobileMenuOpen = false}>Pricing</a>
 		<a class:on={page.url.pathname === '/company'} href="/company" onclick={() => mobileMenuOpen = false}>Company</a>
 		<a class:on={page.url.pathname === '/contact'} href="/contact" onclick={() => mobileMenuOpen = false}>Contact</a>
-		<a href="https://erp.staging.ojo.io" target="_blank" rel="noopener noreferrer" onclick={() => mobileMenuOpen = false}>Log in</a>
+		<a href="https://erp.ojo.io" target="_blank" rel="noopener noreferrer" onclick={() => mobileMenuOpen = false}>Log in</a>
 	</div>
 {/if}
 
