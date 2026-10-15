@@ -171,7 +171,7 @@
 					</div>
 				</div>
 
-				<a class="checkout-btn checkout-btn-primary" href="https://erp.staging.ojo.io/signup" style="display:block;text-align:center">
+				<a class="checkout-btn checkout-btn-primary" href="https://erp.ojo.io/signup" style="display:block;text-align:center">
 					Activate Free Trial
 				</a>
 			</div>
@@ -334,7 +334,7 @@
 			<!-- Primary CTA — always visible -->
 			<a
 				class="checkout-btn checkout-btn-primary"
-				href={otpVerified ? `https://erp.staging.ojo.io/pay?plan=${planKey}&period=${periodKey}` : undefined}
+				href={otpVerified ? `https://erp.ojo.io/pay?plan=${planKey}&period=${periodKey}` : undefined}
 				style="display:block;text-align:center;margin-top:24px;font-size:16px;padding:16px 24px;{otpVerified ? '' : 'opacity:.45;pointer-events:none'}"
 				aria-disabled={!otpVerified}
 			>

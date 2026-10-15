@@ -24,7 +24,7 @@
 	function processPayment() {
 		paying = true;
 		setTimeout(() => {
-			window.location.href = 'https://erp.staging.ojo.io/pay?plan=' + planKey + '&period=' + periodKey;
+			window.location.href = 'https://erp.ojo.io/pay?plan=' + planKey + '&period=' + periodKey;
 		}, 1500);
 	}
 </script>
